@@ -16,6 +16,7 @@ public class MyFile {
     }
 
     public boolean fileIfNull(){
+
         return file.exists() && file.isFile();
     }
 

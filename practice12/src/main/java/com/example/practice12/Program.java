@@ -21,9 +21,9 @@ public class Program {
 
     @PostConstruct
     public void prepareFirstFile() throws IOException{
-        firstFile = new MyFile("C:\\Users\\Danila\\Google Диск\\Institute\\4-rd_semestr\\JavaTemplates\\practice12\\First1.txt");
+        firstFile = new MyFile("C:\\Users\\Danila\\Google Диск\\Institute\\4-rd_semestr\\JavaTemplates\\practice12\\First.txt");
         secondFile = new MyFile("C:\\Users\\Danila\\Google Диск\\Institute\\4-rd_semestr\\JavaTemplates\\practice12\\Second.txt");
-        if(firstFile.fileIfNull())
+        if(!firstFile.fileIfNull())
             secondFile.writeNull();
         else
             secondFile.writeHash(firstFile.hashFile());
@@ -40,3 +40,5 @@ public class Program {
         firstFile.deleteFile();
     }
 }
+
+
