@@ -44,7 +44,8 @@ public class ItemController {
 //    }
 
     @RequestMapping(value = "/addItem",  method = RequestMethod.POST)
-    public void addItem(@RequestBody() Items item) {
+    @ResponseBody
+    public void addItem(@RequestBody() String item) {
 //        itemsService.save(item);
         System.out.println(item);
 //        return "ok";
@@ -56,9 +57,10 @@ public class ItemController {
         return "ok";
     }
 
-    @RequestMapping(value = "/test",  method = RequestMethod.POST)
+    @RequestMapping(value = "/items/addItem",  method = RequestMethod.POST)
     @ResponseBody
-    public void test(@RequestBody() String str){
-        System.out.println(str);
+    public void test(@RequestBody() Items items){
+        System.out.println(items.toString());
+        itemsService.save(items);
     }
 }

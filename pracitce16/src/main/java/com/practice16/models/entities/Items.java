@@ -1,5 +1,6 @@
 package com.practice16.models.entities;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.stereotype.Component;
 
@@ -16,6 +17,7 @@ public class Items {
     @JsonProperty("name")
     private String name;
     @JsonProperty("creation_date")
+//    @JsonFormat(pattern="yyyy-MM-dd'T'HH:mm:ss")
     private Date creation_date;
     @JsonProperty("price")
     private double price;

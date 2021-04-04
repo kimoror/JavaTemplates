@@ -44,9 +44,10 @@ var app = new Vue({
             }).catch((err) => console.log(err));
         },
         testPost: function (){
-            axios.post('http://localhost:8080/test', {
-                message:this.item.name,
-                message2:'Beer'
+            axios.post('http://localhost:8080/items/addItem', {
+                name: this.item.name,
+                creation_date:this.item.creation_date,
+                price:this.item.price
             }).then((response) => {
                 console.log(this.item.name)
                 console.log(response);
