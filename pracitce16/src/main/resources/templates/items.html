@@ -9,7 +9,6 @@
 </head>
 <body>
 <div id="app">
-    <p>{{message}}</p>
     <button @click="getItems">List of items</button>
     <dl v-if="flagItemsView">
         <dt>Items:</dt>
@@ -21,18 +20,23 @@
         <form>
             <label>
                 Name of item:
-                <input v-model:="item.name">
+                <input v-model="item.name">
             </label>
+            <br>
             <label>
                 Date of creation item:
-                <input v-model:="item.creation_date">
+                <input v-model="item.creation_date">
             </label>
+            <br>
             <label>
                 Price of item:
-                <input v-model:="item.price">
+                <input v-model="item.price">
             </label>
+            <br>
             <button type="submit" @click="postItems">Create Items</button>
         </form>
+    <button @click="testPost">Test Post</button>
+    <p>{{item.name}}</p>
 </div>
 <script type="text/javascript" src="../static/js/items.js"></script>
 </body>

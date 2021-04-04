@@ -30,22 +30,35 @@ public class ItemController {
     }
 
     //example of request http://localhost:8080/addItem?name=kolya&date=20/06/2020&price=3000
-    @GetMapping(value = "/addItem")
-    @ResponseBody
-    public String addItem(@RequestParam String name, @RequestParam(name = "date") String reqDate, @RequestParam Double price) {
-        Date date = null;
-        try {
-            date = new SimpleDateFormat("dd/MM/yyyy").parse(reqDate);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        itemsService.save(name, date, price);
-        return "ok";
+//    @GetMapping(value = "/addItem")
+//    @ResponseBody
+//    public String addItem(@RequestParam String name, @RequestParam(name = "date") String reqDate, @RequestParam Double price) {
+//        Date date = null;
+//        try {
+//            date = new SimpleDateFormat("dd/MM/yyyy").parse(reqDate);
+//        } catch (ParseException e) {
+//            e.printStackTrace();
+//        }
+//        itemsService.save(name, date, price);
+//        return "ok";
+//    }
+
+    @RequestMapping(value = "/addItem",  method = RequestMethod.POST)
+    public void addItem(@RequestBody() Items item) {
+//        itemsService.save(item);
+        System.out.println(item);
+//        return "ok";
     }
 
     @GetMapping(value = "/delete_item")
     public String deleteItem(@RequestParam int index) {
         itemsService.delete(index);
         return "ok";
+    }
+
+    @RequestMapping(value = "/test",  method = RequestMethod.POST)
+    @ResponseBody
+    public void test(@RequestBody() String str){
+        System.out.println(str);
     }
 }
