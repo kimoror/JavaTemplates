@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../static/js/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<!--    <script src="https://unpkg.com/vue@next"></script>-->
+</head>
+<body>
+<div id="app">
+    <p>{{message}}</p>
+    <button @click="getItems">List of items</button>
+    <dl v-if="flagItemsView">
+        <dt>Items:</dt>
+        <dd v-for="item in items">
+            {{'id '+ item.id + ': ' + item.name + ' at the price ' + item.price + ' rubles creation date: ' + item.creation_date}}
+        </dd>
+    </dl>
+        <br>
+        <form>
+            <label>
+                Name of item:
+                <input v-model:="item.name">
+            </label>
+            <label>
+                Date of creation item:
+                <input v-model:="item.creation_date">
+            </label>
+            <label>
+                Price of item:
+                <input v-model:="item.price">
+            </label>
+            <button type="submit" @click="postItems">Create Items</button>
+        </form>
+</div>
+<script type="text/javascript" src="../static/js/items.js"></script>
+</body>
+</html>

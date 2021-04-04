@@ -1,4 +1,4 @@
-package com.practice15.controllers;
+package com.practice16.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HomeController {
 
-    @GetMapping("/home")
+    @GetMapping("/")
     public String hello() {
-        return "templates/index";
+        return "index";
     }
 }
