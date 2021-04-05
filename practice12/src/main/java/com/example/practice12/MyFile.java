@@ -10,12 +10,12 @@ public class MyFile {
     FileReader reader;
     FileWriter writer;
 
-    public MyFile(String filePath){
+    public MyFile(String filePath) {
         file = new File(filePath);
         valueOfFile = new StringBuffer();
     }
 
-    public boolean fileIfNull(){
+    public boolean fileIfNull() {
 
         return file.exists() && file.isFile();
     }
@@ -23,8 +23,8 @@ public class MyFile {
     public int hashFile() throws IOException {
         reader = new FileReader(file);
         int c;
-        while ((c=reader.read()) != -1){
-            valueOfFile.append((char)c);
+        while ((c = reader.read()) != -1) {
+            valueOfFile.append((char) c);
         }
         reader.close();
         return valueOfFile.substring(0).hashCode();
@@ -44,7 +44,7 @@ public class MyFile {
         writer.close();
     }
 
-    public void deleteFile(){
+    public void deleteFile() {
         file.deleteOnExit();
     }
 }

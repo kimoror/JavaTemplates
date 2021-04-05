@@ -6,7 +6,7 @@ import java.util.concurrent.Executors;
 public class Main {
     public static void main(String[] args) {
         Lazy man = Lazy.getObject(78.3, 176);
-        man = Lazy.getObject(89,190);
+        man = Lazy.getObject(89, 190);
         System.out.println(man.toString());
 
         ENUM e = ENUM.woman.getWoman();

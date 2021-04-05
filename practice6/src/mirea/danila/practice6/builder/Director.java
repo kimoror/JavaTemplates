@@ -4,16 +4,16 @@ public class Director {
     Builder builder;
     City city = new City();
 
-    public Director(Builder builder){
+    public Director(Builder builder) {
         this.builder = builder;
         builder.setCity(city);
     }
 
-    public void Construct(){
+    public void Construct() {
         builder.buildHouse();
     }
 
-    public int getWorkResult(){
+    public int getWorkResult() {
         return builder.getResult().getSizeOfCity();
     }
 }

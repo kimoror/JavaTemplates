@@ -18,35 +18,35 @@ test {
     useJUnitPlatform()
 }
 
-jar{
-    manifest{
+jar {
+    manifest {
         attributes 'Main-Class': 'main.Main'
     }
-    from{
-        configurations.compile.collect{it.isDirectory() ? it : zipTree(it)}
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
     }
-    finalizedBy{
+    finalizedBy {
         moveJar
     }
 }
 
-task moveJar(type:Copy){
+task moveJar(type: Copy) {
     from jar
     into projectDir
 //    commandLine "mv", "build/libs/practice9-1.0-SNAPSHOT.jar", "./"
-    finalizedBy{
+    finalizedBy {
         dockerBuild
     }
 }
 
-task dockerBuild(type: Exec){
+task dockerBuild(type: Exec) {
     workingDir projectDir
     commandLine "docker", "build", "-t", "${project.name}:${project.version}", "."
-    finalizedBy{
+    finalizedBy {
         dockerRun
     }
 }
 
-task dockerRun(type: Exec){
+task dockerRun(type: Exec) {
     commandLine "docker", "run", "${project.name}:${project.version}"
 }

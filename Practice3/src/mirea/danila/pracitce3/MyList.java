@@ -3,15 +3,15 @@ package mirea.danila.pracitce3;
 import java.util.*;
 
 
-public class MyList implements List{
+public class MyList implements List {
     List<Object> list;
 
-    public MyList(){
+    public MyList() {
         list = new ArrayList<>();
     }
 
     @Override
-    public synchronized int size(){
+    public synchronized int size() {
         return list.size();
     }
 

@@ -4,7 +4,7 @@ public class ConcretePrototype1 implements Prototype {
     public int id;
     public String name;
 
-    public ConcretePrototype1(int id,String name){
+    public ConcretePrototype1(int id, String name) {
         this.id = id;
         this.name = name;
     }

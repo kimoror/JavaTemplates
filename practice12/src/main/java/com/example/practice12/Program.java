@@ -15,19 +15,19 @@ public class Program {
     MyFile secondFile;
 
     @Autowired
-    public Program(){
+    public Program() {
 
     }
 
     @PostConstruct
-    public void prepareFirstFile() throws IOException{
+    public void prepareFirstFile() throws IOException {
         firstFile = new MyFile("C:\\Users\\Danila\\Google Диск\\Institute\\4-rd_semestr\\JavaTemplates\\practice12\\First.txt");
         secondFile = new MyFile("C:\\Users\\Danila\\Google Диск\\Institute\\4-rd_semestr\\JavaTemplates\\practice12\\Second.txt");
-        if(!firstFile.fileIfNull())
+        if (!firstFile.fileIfNull())
             secondFile.writeNull();
         else
             secondFile.writeHash(firstFile.hashFile());
-            System.out.println(firstFile.hashFile());
+        System.out.println(firstFile.hashFile());
 
     }
 
@@ -36,7 +36,7 @@ public class Program {
     }
 
     @PreDestroy
-    public void deleteFirstFile(){
+    public void deleteFirstFile() {
         firstFile.deleteFile();
     }
 }

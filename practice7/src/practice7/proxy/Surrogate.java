@@ -1,9 +1,9 @@
 package practice7.proxy;
 
-public class Surrogate implements IHuman{
+public class Surrogate implements IHuman {
     IHuman human;
 
-    public Surrogate(IHuman human){
+    public Surrogate(IHuman human) {
         this.human = human;
     }
 

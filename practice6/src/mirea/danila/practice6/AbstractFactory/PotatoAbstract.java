@@ -6,7 +6,7 @@ public class PotatoAbstract implements ProductAbstract {
 
     public final String name;
 
-    public PotatoAbstract(){
+    public PotatoAbstract() {
         name = "Potato";
     }
 

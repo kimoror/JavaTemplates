@@ -11,7 +11,7 @@ public class Main {
         context.humanList.stream().limit(5)
                 .sorted(Comparator.comparing(Human::getBirthDate))
                 .filter(x -> x.getWeight() < 60)
-                .forEach(x -> System.out.println(x.getFirstName() + " " +  x.getLastName()));
+                .forEach(x -> System.out.println(x.getFirstName() + " " + x.getLastName()));
 //        for debug
 //               .forEach(x -> System.out.println(x.getFirstName() + " " +  x.getLastName()+ " " +
 //                        x.getAge() + " years " + x.getBirthDate() + " " + x.getWeight() + " weight"));

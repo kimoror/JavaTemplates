@@ -46,12 +46,12 @@ public class Human {
     }
 
 
-    public char getLastWordOfName(){
+    public char getLastWordOfName() {
         return firstName.charAt(firstName.length() - 1);
     }
 
-    public int agePlusThree(){
-        age +=3;
+    public int agePlusThree() {
+        age += 3;
         return age;
     }
 }

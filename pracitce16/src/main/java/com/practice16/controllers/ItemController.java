@@ -11,6 +11,8 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
+import org.json.*;
+
 
 @Controller
 public class ItemController {
@@ -43,24 +45,19 @@ public class ItemController {
 //        return "ok";
 //    }
 
-    @RequestMapping(value = "/addItem",  method = RequestMethod.POST)
+    @RequestMapping(value = "/items/delete_item", method = RequestMethod.POST)
     @ResponseBody
-    public void addItem(@RequestBody() String item) {
-//        itemsService.save(item);
-        System.out.println(item);
-//        return "ok";
-    }
-
-    @GetMapping(value = "/delete_item")
-    public String deleteItem(@RequestParam int index) {
-        itemsService.delete(index);
-        return "ok";
+    //TODO прописать в html, чтобы можно было вводить только цифры с помощбю регулярных выражений
+    public void deleteItem(@RequestBody String delete_id_json) {
+        JSONObject obj = new JSONObject(delete_id_json);
+        String delete_id = obj.getString("delete_id");
+        System.out.println(delete_id);
+        itemsService.delete(Integer.parseInt(delete_id));
     }
 
     @RequestMapping(value = "/items/addItem",  method = RequestMethod.POST)
     @ResponseBody
     public void test(@RequestBody() Items items){
-        System.out.println(items.toString());
         itemsService.save(items);
     }
 }

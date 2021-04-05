@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
 
         MyList list = new MyList();
-        MySet <String> set = new MySet<String>();
+        MySet<String> set = new MySet<String>();
 
-        Thread th1List = new Thread(()->{
-            for(int i = 0; i < 50; i++){
+        Thread th1List = new Thread(() -> {
+            for (int i = 0; i < 50; i++) {
                 list.add("one");
                 try {
                     Thread.sleep(100);
@@ -17,20 +17,20 @@ public class Main {
             }
         });
 
-        Thread th2List = new Thread(()->{
-            for(int i = 0; i < 50; i++){
+        Thread th2List = new Thread(() -> {
+            for (int i = 0; i < 50; i++) {
                 list.add("two");
             }
         });
 
-        Thread th1Set = new Thread(()->{
-            for(int i = 0; i < 50; i++){
+        Thread th1Set = new Thread(() -> {
+            for (int i = 0; i < 50; i++) {
                 set.add("one");
             }
         });
 
-        Thread th2Set = new Thread(()->{
-            for(int i = 0; i < 50; i++){
+        Thread th2Set = new Thread(() -> {
+            for (int i = 0; i < 50; i++) {
                 set.add("two");
             }
         });

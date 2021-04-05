@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Items</title>
     <script type="text/javascript" src="../static/js/vue.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <!--    <script src="https://unpkg.com/vue@next"></script>-->
@@ -34,8 +34,13 @@
             </label>
             <br>
         </form>
-        <button @click="testPost">Test Post</button>
-    <p>{{item.name}}</p>
+        <button @click="addItem">add Item</button>
+        <label> Input id of item which you want to delete
+            <input placeholder="1" v-model="delete_id" pattern="[0-9]+" required="">
+        </label>
+        <br>
+        <button @click="deleteItem">Delete item</button>
+    <p>{{this.url.deleteItem + '/{' + this.delete_id +'}'}}</p>
 </div>
 <script type="text/javascript" src="../static/js/items.js"></script>
 </body>

@@ -13,7 +13,7 @@ public class MySet<S> implements Set {
 
     Semaphore sem = new Semaphore(1);
 
-    public MySet(){
+    public MySet() {
         mySet = new HashSet<>();
         sem = new Semaphore(1);
     }
@@ -26,7 +26,7 @@ public class MySet<S> implements Set {
             size = mySet.size();
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             sem.release();
         }
         return size;
@@ -40,7 +40,7 @@ public class MySet<S> implements Set {
             isEmpty = mySet.isEmpty();
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             sem.release();
         }
         return mySet.isEmpty();
@@ -49,12 +49,12 @@ public class MySet<S> implements Set {
     @Override
     public boolean contains(Object o) {
         boolean contains = false;
-        try{
+        try {
             sem.acquire();
             contains = mySet.contains(o);
-        }catch (InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             sem.release();
         }
         return contains;
@@ -63,27 +63,27 @@ public class MySet<S> implements Set {
     @Override
     public Iterator iterator() {
         Iterator it = null;
-        try{
+        try {
             sem.acquire();
             it = mySet.iterator();
-        }catch (InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             sem.release();
         }
-         return it;
+        return it;
     }
 
     //TODO improve
     @Override
     public Object[] toArray() {
         Object[] objects = new Object[mySet.size()];
-        try{
+        try {
             sem.acquire();
             objects = mySet.toArray();
-        }catch (InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             sem.release();
         }
         return objects;
@@ -92,12 +92,12 @@ public class MySet<S> implements Set {
     @Override
     public boolean add(Object o) {
         boolean add = false;
-        try{
+        try {
             sem.acquire();
             add = mySet.add(o);
-        }catch (InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             sem.release();
         }
         return add;
@@ -106,12 +106,12 @@ public class MySet<S> implements Set {
     @Override
     public boolean remove(Object o) {
         boolean remove = false;
-        try{
+        try {
             sem.acquire();
             remove = mySet.remove(o);
-        }catch (InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             sem.release();
         }
         return remove;
@@ -120,12 +120,12 @@ public class MySet<S> implements Set {
     @Override
     public boolean addAll(Collection c) {
         boolean addAll = false;
-        try{
+        try {
             sem.acquire();
             addAll = mySet.remove(c);
-        }catch (InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             sem.release();
         }
         return addAll;
@@ -133,12 +133,12 @@ public class MySet<S> implements Set {
 
     @Override
     public void clear() {
-        try{
+        try {
             sem.acquire();
             mySet.clear();
-        }catch (InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             sem.release();
         }
     }
@@ -146,12 +146,12 @@ public class MySet<S> implements Set {
     @Override
     public boolean removeAll(Collection c) {
         boolean removeAll = false;
-        try{
+        try {
             sem.acquire();
             removeAll = mySet.remove(c);
-        }catch (InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             sem.release();
         }
         return false;
@@ -160,12 +160,12 @@ public class MySet<S> implements Set {
     @Override
     public boolean retainAll(Collection c) {
         boolean retainAll = false;
-        try{
+        try {
             sem.acquire();
             retainAll = mySet.retainAll(c);
-        }catch (InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             sem.release();
         }
         return retainAll;
@@ -174,12 +174,12 @@ public class MySet<S> implements Set {
     @Override
     public boolean containsAll(Collection c) {
         boolean containsAll = false;
-        try{
+        try {
             sem.acquire();
             containsAll = mySet.remove(c);
-        }catch (InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             sem.release();
         }
         return containsAll;
@@ -188,12 +188,12 @@ public class MySet<S> implements Set {
     @Override
     public Object[] toArray(Object[] a) {
         Object[] objects = new Object[mySet.size()];
-        try{
+        try {
             sem.acquire();
             objects = mySet.toArray(a);
-        }catch (InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             sem.release();
         }
         return objects;

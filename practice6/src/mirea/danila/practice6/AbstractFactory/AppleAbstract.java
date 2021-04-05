@@ -2,11 +2,10 @@ package mirea.danila.practice6.AbstractFactory;
 
 import mirea.danila.practice6.factory_method.Product;
 
-public class AppleAbstract implements ProductAbstract
-{
+public class AppleAbstract implements ProductAbstract {
     private final String name;
 
-    public AppleAbstract(){
+    public AppleAbstract() {
         name = "Apple";
     }
 

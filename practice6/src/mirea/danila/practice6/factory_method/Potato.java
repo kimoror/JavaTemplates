@@ -1,10 +1,10 @@
 package mirea.danila.practice6.factory_method;
 
-public class Potato implements Product{
+public class Potato implements Product {
 
     public final String name;
 
-    public Potato(){
+    public Potato() {
         name = "Potato";
     }
 

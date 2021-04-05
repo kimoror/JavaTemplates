@@ -9,10 +9,13 @@ var app = new Vue({
             },
             items: [],
             flagItemsView: false,
+            delete_id:'',
             url: {
                 allItems: 'http://localhost:8080/items/getItems',
-                postItem: 'http://localhost:8080/addItem'
-            },
+                postItem: 'http://localhost:8080/items/addItem',
+                deleteItem:'http://localhost:8080/items/delete_item'
+            }
+
         }
     },
     methods: {
@@ -24,32 +27,22 @@ var app = new Vue({
                 this.items = response.data;
             })
         },
-        postItems: function(){
-            //TODO Здесь может быть ошибка
-            // console.log(this.item)
-            let newItem = {
-                name: this.item.name,
-                date: this.item.creation_date,
-                price: this.item.price
-            };
-            // this.item.creation_date = new Date(this.item.creation_date);
-            // console.log(this.item)
-            console.log(newItem);
-            axios.post('http://localhost:8080/addItem', {
-                name: this.item.name,
-                date:this.item.creation_date,
-                price:this.item.price
-            }).then((response) => {
-                console.log(response);
-            }).catch((err) => console.log(err));
-        },
-        testPost: function (){
-            axios.post('http://localhost:8080/items/addItem', {
+        addItem: function (){
+            axios.post(this.url.postItem, {
                 name: this.item.name,
                 creation_date:this.item.creation_date,
                 price:this.item.price
             }).then((response) => {
                 console.log(this.item.name)
+                console.log(response);
+            })
+        },
+        deleteItem: function (){
+            console.log(this.delete_id)
+            axios.post(this.url.deleteItem, {
+                delete_id: this.delete_id
+            }).then((response) => {
+                console.log(this.delete_id)
                 console.log(response);
             })
         }

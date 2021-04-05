@@ -6,11 +6,11 @@ public class City {
 
     protected ArrayList<Object> city = new ArrayList<>();
 
-    public void add(Object house){
+    public void add(Object house) {
         city.add(house);
     }
 
-    public int getSizeOfCity(){
+    public int getSizeOfCity() {
         return city.size();
     }
 }

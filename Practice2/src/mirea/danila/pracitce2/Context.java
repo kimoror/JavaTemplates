@@ -7,7 +7,7 @@ import java.util.List;
 public class Context {
     List<Human> humanList = new ArrayList<>();
 
-    public Context(){
+    public Context() {
         humanList.add(new Human(53, "Oleg", "Tinkoff", new Date(1967, 11, 23), 78));
         humanList.add(new Human(42, "Anton", "Komolov", new Date(1987, 8, 28), 88));
         humanList.add(new Human(20, "Vladimir", "Medvedev", new Date(2001, 5, 3), 51));

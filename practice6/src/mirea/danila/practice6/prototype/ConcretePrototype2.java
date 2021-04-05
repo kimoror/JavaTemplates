@@ -1,10 +1,10 @@
 package mirea.danila.practice6.prototype;
 
-public class ConcretePrototype2 implements Prototype{
+public class ConcretePrototype2 implements Prototype {
     public int id;
     public String name;
 
-    public ConcretePrototype2(int id,String name){
+    public ConcretePrototype2(int id, String name) {
         this.id = id;
         this.name = name;
     }
