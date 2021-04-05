@@ -33,7 +33,6 @@ public class ItemController {
 
     @RequestMapping(value = "/items/delete_item", method = RequestMethod.POST)
     @ResponseBody
-    //TODO прописать в html, чтобы можно было вводить только цифры с помощбю регулярных выражений
     public void deleteItem(@RequestBody String delete_id_json) {
         JSONObject obj = new JSONObject(delete_id_json);
         String delete_id = obj.getString("delete_id");
@@ -43,7 +42,7 @@ public class ItemController {
 
     @RequestMapping(value = "/items/addItem",  method = RequestMethod.POST)
     @ResponseBody
-    public void test(@RequestBody() Items items){
+    public void addItem(@RequestBody() Items items){
         itemsService.save(items);
     }
 }

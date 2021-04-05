@@ -9,12 +9,13 @@ var ordersApp = new Vue({
             flagOrdersView: false,
             delete_id:'',
             url:{
-                allOrders: 'http://localhost:8080/orders/getOrders'
+                allOrders: 'http://localhost:8080/orders/getOrders',
+                addOrder: 'http://localhost:8080/orders/addOrder'
             }
         }
     },
     methods: {
-        getOrders: function (){
+        getOrders: function () {
             axios.get(this.url.allOrders).then((response) => {
                 this.orders = response.data
                 this.flagOrdersView = true;
@@ -22,7 +23,14 @@ var ordersApp = new Vue({
                 console.log(response.data);
                 console.log(this.orders);
             })
+        },
+        addOrder: function () {
+            axios.post(this.url.addOrder, {
+                order_date: this.order.order_date
+            }).then((response) => {
+                console.log(this.order.order_date);
+                console.log(response);
+            })
         }
     }
-
 })

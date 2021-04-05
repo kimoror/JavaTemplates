@@ -17,9 +17,10 @@ public class ItemsService{
     public void save(String name, Date date, Double price){
         itemsRepository.save(new Items(name, date, price));
     }
-        public void save(Items item){
+
+    public void save(Items item){
         itemsRepository.save(item);
-    }
+        }
 
     public ArrayList<Items> getAll() {
         return new ArrayList<Items>(itemsRepository.findAll());

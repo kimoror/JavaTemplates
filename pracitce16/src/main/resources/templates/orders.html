@@ -16,6 +16,13 @@
             {{'id '+ order.id + ': order_date - ' +  order.order_date}}
         </dd>
     </dl>
+    <form>
+        <label>
+            Order date:
+            <input placeholder="2020-03-02" v-model="order.order_date" required>
+        </label>
+    </form>
+    <button @click="addOrder">add order</button>
 
 </div>
 <script type="text/javascript" src="../static/js/orders.js"></script>

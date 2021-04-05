@@ -26,27 +26,15 @@ public class OrderController {
         return ordersService.getAll();
     }
 
-//    @GetMapping("orders/addOrder")
-//    public String addOrder(@RequestParam String reqOrderDate) {
-//        Date orderDate = null;
-//        try {
-//            orderDate = new SimpleDateFormat("dd/MM/yyyy").parse(reqOrderDate);
-//        } catch (ParseException e) {
-//            e.printStackTrace();
-//        }
-//        ordersService.save(orderDate);
-//        return "ok";
-//    }
-
-//    @RequestMapping(value = "/orders/addOrder", method = RequestMethod.POST)
-//    @ResponseBody
-//    public void addOrder(@RequestBody() Order order){
-//        ordersService.save;
-//    }
-
-    @GetMapping("orders/deleteOrder")
-    public String deleteOrder(@RequestParam int index) {
-        ordersService.delete(index);
-        return "Ok";
+    @RequestMapping(value = "/orders/addOrder", method = RequestMethod.POST)
+    @ResponseBody
+    public void addOrder(@RequestBody() Order order){
+        ordersService.addOrder(order);
     }
+
+//    @GetMapping("orders/deleteOrder")
+//    public String deleteOrder(@RequestParam int index) {
+//        ordersService.delete(index);
+//        return "Ok";
+//    }
 }

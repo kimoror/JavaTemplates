@@ -13,8 +13,12 @@ public class OrdersService {
     @Autowired
     OrdersRepository ordersRepository;
 
-    public void save(Date date){
+    public void addOrder(Date date){
         ordersRepository.save(new Order(date));
+    }
+
+    public void addOrder(Order order){
+        ordersRepository.save(order);
     }
 
     public ArrayList<Order> getAll() {
