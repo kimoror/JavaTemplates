@@ -36,7 +36,6 @@ public class ItemController {
     public void deleteItem(@RequestBody String delete_id_json) {
         JSONObject obj = new JSONObject(delete_id_json);
         String delete_id = obj.getString("delete_id");
-        System.out.println(delete_id);
         itemsService.delete(Integer.parseInt(delete_id));
     }
 

@@ -2,6 +2,7 @@ package com.practice16.controllers;
 
 import com.practice16.models.entities.Order;
 import com.practice16.models.services.OrdersService;
+import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -37,4 +38,11 @@ public class OrderController {
 //        ordersService.delete(index);
 //        return "Ok";
 //    }
+    @RequestMapping(value = "orders/deleteOrder", method = RequestMethod.POST)
+    @ResponseBody
+    public void deleteOrder(@RequestBody String delete_order_id_json){
+        JSONObject obj = new JSONObject(delete_order_id_json);
+        String delete_id = obj.getString("delete_id");
+        ordersService.delete(Integer.parseInt(delete_id));
+    }
 }

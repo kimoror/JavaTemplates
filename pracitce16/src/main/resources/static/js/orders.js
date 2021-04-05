@@ -10,7 +10,8 @@ var ordersApp = new Vue({
             delete_id:'',
             url:{
                 allOrders: 'http://localhost:8080/orders/getOrders',
-                addOrder: 'http://localhost:8080/orders/addOrder'
+                addOrder: 'http://localhost:8080/orders/addOrder',
+                deleteOrder: 'http://localhost:8080/orders/deleteOrder'
             }
         }
     },
@@ -29,6 +30,13 @@ var ordersApp = new Vue({
                 order_date: this.order.order_date
             }).then((response) => {
                 console.log(this.order.order_date);
+                console.log(response);
+            })
+        },
+        deleteOrder(){
+            axios.post(this.url.deleteOrder,{
+                delete_id: this.delete_id
+            }).then((response) => {
                 console.log(response);
             })
         }

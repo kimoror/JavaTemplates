@@ -23,6 +23,13 @@
         </label>
     </form>
     <button @click="addOrder">add order</button>
+    <br>
+    <label>
+        Input id of order which you want to delete
+        <br>
+        <input v-model="delete_id" placeholder="1" pattern="[0-9]+">
+    </label>
+    <button @click = "deleteOrder">delete order</button>
 
 </div>
 <script type="text/javascript" src="../static/js/orders.js"></script>
