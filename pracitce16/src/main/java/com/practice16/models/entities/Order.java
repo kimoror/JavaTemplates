@@ -13,6 +13,8 @@ public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    @JsonProperty("order_date")
+    private Date order_date;
 
     public Date getOrder_date() {
         return order_date;
@@ -21,9 +23,6 @@ public class Order {
     public void setOrder_date(Date order_date) {
         this.order_date = order_date;
     }
-
-    @JsonProperty("order_date")
-    private Date order_date;
 
     public Order() {};
 

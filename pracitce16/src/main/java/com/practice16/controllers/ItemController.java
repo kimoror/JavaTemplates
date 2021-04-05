@@ -31,20 +31,6 @@ public class ItemController {
         return itemsService.getAll();
     }
 
-    //example of request http://localhost:8080/addItem?name=kolya&date=20/06/2020&price=3000
-//    @GetMapping(value = "/addItem")
-//    @ResponseBody
-//    public String addItem(@RequestParam String name, @RequestParam(name = "date") String reqDate, @RequestParam Double price) {
-//        Date date = null;
-//        try {
-//            date = new SimpleDateFormat("dd/MM/yyyy").parse(reqDate);
-//        } catch (ParseException e) {
-//            e.printStackTrace();
-//        }
-//        itemsService.save(name, date, price);
-//        return "ok";
-//    }
-
     @RequestMapping(value = "/items/delete_item", method = RequestMethod.POST)
     @ResponseBody
     //TODO прописать в html, чтобы можно было вводить только цифры с помощбю регулярных выражений

@@ -17,25 +17,34 @@ public class OrderController {
     @Autowired
     OrdersService ordersService;
 
-    @GetMapping("/orders")
+    @RequestMapping(value = "/orders", method = RequestMethod.GET)
+    public String orders(){return "orders";}
+
+    @GetMapping("/orders/getOrders")
     @ResponseBody
     public List<Order> getOrders() {
         return ordersService.getAll();
     }
 
-    @GetMapping("/addOrder")
-    public String addOrder(@RequestParam String reqOrderDate) {
-        Date orderDate = null;
-        try {
-            orderDate = new SimpleDateFormat("dd/MM/yyyy").parse(reqOrderDate);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        ordersService.save(orderDate);
-        return "ok";
-    }
+//    @GetMapping("orders/addOrder")
+//    public String addOrder(@RequestParam String reqOrderDate) {
+//        Date orderDate = null;
+//        try {
+//            orderDate = new SimpleDateFormat("dd/MM/yyyy").parse(reqOrderDate);
+//        } catch (ParseException e) {
+//            e.printStackTrace();
+//        }
+//        ordersService.save(orderDate);
+//        return "ok";
+//    }
 
-    @GetMapping("/deleteOrder")
+//    @RequestMapping(value = "/orders/addOrder", method = RequestMethod.POST)
+//    @ResponseBody
+//    public void addOrder(@RequestBody() Order order){
+//        ordersService.save;
+//    }
+
+    @GetMapping("orders/deleteOrder")
     public String deleteOrder(@RequestParam int index) {
         ordersService.delete(index);
         return "Ok";

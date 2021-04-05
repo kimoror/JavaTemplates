@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Orders</title>
+    <script type="text/javascript" src="../static/js/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!--    <script src="https://unpkg.com/vue@next"></script>-->
 </head>
 <body>
+<div id="ordersApp">
+    <button @click="getOrders">List of orders</button>
+    <dl v-if="flagOrdersView">
+        <dt>Orders:</dt>
+        <dd v-for="order in orders">
+            {{'id '+ order.id + ': order_date - ' +  order.order_date}}
+        </dd>
+    </dl>
 
+</div>
+<script type="text/javascript" src="../static/js/orders.js"></script>
 </body>
 </html>
