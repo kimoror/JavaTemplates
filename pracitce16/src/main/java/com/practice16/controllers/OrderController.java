@@ -33,11 +33,6 @@ public class OrderController {
         ordersService.addOrder(order);
     }
 
-//    @GetMapping("orders/deleteOrder")
-//    public String deleteOrder(@RequestParam int index) {
-//        ordersService.delete(index);
-//        return "Ok";
-//    }
     @RequestMapping(value = "orders/deleteOrder", method = RequestMethod.POST)
     @ResponseBody
     public void deleteOrder(@RequestBody String delete_order_id_json){

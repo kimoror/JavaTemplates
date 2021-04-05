@@ -5,7 +5,11 @@ var app = new Vue({
             item: {
                 name: '',
                 creation_date: '',
-                price: ''
+                price: '',
+                order:{
+                    id:'',
+                    order_date:''
+                }
             },
             items: [],
             flagItemsView: false,
@@ -31,7 +35,11 @@ var app = new Vue({
             axios.post(this.url.postItem, {
                 name: this.item.name,
                 creation_date:this.item.creation_date,
-                price:this.item.price
+                price:this.item.price,
+                order: {
+                    id: this.item.order.id
+                    //TODO Если не сработает добавь order_date
+                }
             }).then((response) => {
                 console.log(this.item.name)
                 console.log(response);

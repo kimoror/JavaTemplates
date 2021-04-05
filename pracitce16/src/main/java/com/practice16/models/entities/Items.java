@@ -21,6 +21,17 @@ public class Items {
     private Date creation_date;
     @JsonProperty("price")
     private double price;
+    @ManyToOne
+    @JsonProperty("order")
+    private Order order;
+
+    public Order getOrder() {
+        return order;
+    }
+
+    public void setOrder(Order order) {
+        this.order = order;
+    }
 
     public Items() {};
 
