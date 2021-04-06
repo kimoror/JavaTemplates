@@ -42,6 +42,7 @@ public class ItemController {
     @RequestMapping(value = "/items/addItem",  method = RequestMethod.POST)
     @ResponseBody
     public void addItem(@RequestBody() Items items){
+//        items.getOrder().getId();
         itemsService.save(items);
     }
 }

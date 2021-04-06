@@ -17,8 +17,7 @@
             + ': ' + item.name
             + ' at the price ' + item.price
             + ' rubles creation date: ' + item.creation_date
-            + ' ,order_id: ' + item.order.id
-            + ' , order date: ' + item.order.order_date}}
+            + ' ,order_id: ' + item.order_id}}
         </dd>
     </dl>
         <br>
@@ -40,7 +39,7 @@
             <br>
             <label>
                 Order_id:
-                <input placeholder="1" v-model="item.order.id" required>
+                <input placeholder="1" v-model="item.order_id" required>
             </label>
         </form>
         <button @click="addItem">add Item</button>
@@ -50,7 +49,6 @@
         </label>
         <br>
         <button @click="deleteItem">Delete item</button>
-    <p>{{this.url.deleteItem + '/{' + this.delete_id +'}'}}</p>
 </div>
 <script type="text/javascript" src="../static/js/items.js"></script>
 </body>

@@ -1,15 +1,21 @@
 package com.practice16.models.entities;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.sun.istack.NotNull;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
-import java.util.Date;
+import java.sql.Date;
 
 @Component
 @Entity
 @Table(name = "items", schema = "java_templates")
+@Setter
+@Getter
 public class Items {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,17 +27,13 @@ public class Items {
     private Date creation_date;
     @JsonProperty("price")
     private double price;
-    @ManyToOne
-    @JsonProperty("order")
-    private Order order;
-
-    public Order getOrder() {
-        return order;
-    }
-
-    public void setOrder(Order order) {
-        this.order = order;
-    }
+    //TODO Если хочешь , чтобы показывал заказ убери @JsonIgnore, вставь @JsonProperty("order") и  в Order убери List
+//    @ManyToOne
+////    @JsonProperty("order")
+//    @JsonIgnore
+//    private Order order;
+    @JsonProperty("order_id")
+    private int order_id;
 
     public Items() {};
 
@@ -42,37 +44,5 @@ public class Items {
         this.name = name;
         this.creation_date = creation_date;
         this.price = price;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Date getCreation_date() {
-        return creation_date;
-    }
-
-    public void setCreation_date(Date creation_date) {
-        this.creation_date = creation_date;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 }
