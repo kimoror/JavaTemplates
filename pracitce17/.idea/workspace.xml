@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5167efe6-06d7-4f29-8db5-e53761bee725" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Report.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/Practice15Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/controllers/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/controllers/ItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/controllers/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/models/entities/Items.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/models/entities/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/models/repositories/ItemsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/models/repositories/OrdersRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/models/services/ItemsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/models/services/OrdersService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/items.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/orders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/orders.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/practice16/Practice15ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice8" beforeDir="false" afterPath="$PROJECT_DIR$/../practice8" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="f7cee761216cd9691fa99588578ec008f4b60207" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1qYv2LYnKYoy2qtJetBwbDYvqXS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PostgreSQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../practice19" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Danila\Google Диск\Institute\4-rd_semestr\JavaTemplates\pracitce16\src\main\resources\static" />
+      <recent name="C:\Users\Danila\Google Диск\Institute\4-rd_semestr\JavaTemplates\pracitce16\src\main\java\com\practice16" />
+      <recent name="C:\Users\Danila\Google Диск\Institute\4-rd_semestr\JavaTemplates\pracitce15\src\main\resources" />
+      <recent name="C:\Users\Danila\Google Диск\Institute\4-rd_semestr\JavaTemplates\pracitce15\src\main\java\com\practice15" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Danila\Google Диск\Institute\4-rd_semestr\JavaTemplates\pracitce16\src\main\resources\static\js" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.practice16" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Practice15Application">
+    <configuration name="Practice15Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="practice17" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.practice17.Practice15Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice16Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="practice17" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.practice16.Practice16Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Practice15Application" />
+      <item itemvalue="Spring Boot.Practice16Application" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5167efe6-06d7-4f29-8db5-e53761bee725" name="Default Changelist" comment="" />
+      <created>1617269136405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617269136405</updated>
+      <workItem from="1617269137545" duration="807000" />
+      <workItem from="1617269971441" duration="2390000" />
+      <workItem from="1617308296670" duration="7801000" />
+      <workItem from="1617346841513" duration="14843000" />
+      <workItem from="1617375125974" duration="144000" />
+      <workItem from="1617488351400" duration="95000" />
+      <workItem from="1617490798376" duration="191000" />
+      <workItem from="1617534131821" duration="191000" />
+      <workItem from="1617534352116" duration="3710000" />
+      <workItem from="1617543062357" duration="9935000" />
+      <workItem from="1617556055753" duration="3449000" />
+      <workItem from="1617604241455" duration="5270000" />
+      <workItem from="1617609816438" duration="11504000" />
+      <workItem from="1617660121070" duration="4553000" />
+      <workItem from="1617692402737" duration="1832000" />
+      <workItem from="1617697013632" duration="20741000" />
+      <workItem from="1617720815617" duration="10013000" />
+      <workItem from="1617745455110" duration="448000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
