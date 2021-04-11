@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b73f183e-7784-468a-b657-742bd63d49ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Practice2/src/mirea/danila/pracitce2/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice2/src/mirea/danila/pracitce2/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice2/src/mirea/danila/pracitce2/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice2/src/mirea/danila/pracitce2/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice2/src/mirea/danila/pracitce2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice2/src/mirea/danila/pracitce2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice3/src/mirea/danila/pracitce3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/src/mirea/danila/pracitce3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice3/src/mirea/danila/pracitce3/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/src/mirea/danila/pracitce3/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice3/src/mirea/danila/pracitce3/MySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice3/src/mirea/danila/pracitce3/MySet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice4/src/mirea/danila/practice4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice4/src/mirea/danila/practice4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Report.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice10/src/main/java/practice10/Biden.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice10/src/main/java/practice10/Biden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice10/src/main/java/practice10/Merkel.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice10/src/main/java/practice10/Merkel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice10/src/main/java/practice10/Politician.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice10/src/main/java/practice10/Politician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice10/src/main/java/practice10/Trump.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice10/src/main/java/practice10/Trump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice11/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/practice11/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice12/Second.txt" beforeDir="false" afterPath="$PROJECT_DIR$/practice12/Second.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice12/src/main/java/com/example/practice12/MyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice12/src/main/java/com/example/practice12/MyFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice12/src/main/java/com/example/practice12/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice12/src/main/java/com/example/practice12/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice13/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice13/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice13/src/main/java/com/example/practice13/Practice13Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice13/src/main/java/com/example/practice13/Practice13Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice13/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice5/src/mirea/danila/practice5/ENUM.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice5/src/mirea/danila/practice5/ENUM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice5/src/mirea/danila/practice5/Lazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice5/src/mirea/danila/practice5/Lazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice5/src/mirea/danila/practice5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice5/src/mirea/danila/practice5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice5/src/mirea/danila/practice5/ThreadSafetySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice5/src/mirea/danila/practice5/ThreadSafetySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice5/src/mirea/danila/practice5/ThreadSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice5/src/mirea/danila/practice5/ThreadSingle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/AbstractFactory/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/AbstractFactory/AbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/AbstractFactory/AppleAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/AbstractFactory/AppleAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/AbstractFactory/PotatoAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/AbstractFactory/PotatoAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/AbstractFactory/PotatoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/AbstractFactory/PotatoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/AbstractFactory/ProductAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/AbstractFactory/ProductAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/builder/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/builder/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/builder/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/builder/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/builder/ConcreteBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/builder/ConcreteBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/builder/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/builder/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/factory_method/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/factory_method/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/factory_method/Potato.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/factory_method/Potato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/factory_method/PotatoCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/factory_method/PotatoCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/factory_method/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/factory_method/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/prototype/ConcretePrototype1.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/prototype/ConcretePrototype1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/prototype/ConcretePrototype2.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice6/src/mirea/danila/practice6/prototype/ConcretePrototype2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice7/src/practice7/adapter/Adaptee.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice7/src/practice7/adapter/Adaptee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice7/src/practice7/adapter/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice7/src/practice7/adapter/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice7/src/practice7/adapter/AdapterClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice7/src/practice7/adapter/AdapterClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice7/src/practice7/adapter/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice7/src/practice7/adapter/Target.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice7/src/practice7/proxy/BruceWillis.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice7/src/practice7/proxy/BruceWillis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice7/src/practice7/proxy/ProxyProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice7/src/practice7/proxy/ProxyProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice7/src/practice7/proxy/Surrogate.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice7/src/practice7/proxy/Surrogate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8" beforeDir="false" afterPath="$PROJECT_DIR$/practice8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice8/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/practice8/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/practice8/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice8/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/API/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/API/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/API/MyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/BACK/AbstractStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/BACK/AbstractStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/BACK/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/BACK/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/BACK/HibernateStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/BACK/HibernateStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/BACK/JDBCStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/BACK/JDBCStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/FirstApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/FirstApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/MODEL/entity/Outcomes.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/MODEL/entity/Outcomes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/MODEL/serivce/OutcomesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/MODEL/serivce/OutcomesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/MODEL/serivce/impl/OutcomesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice8/src/main/java/ChangeJdbcToHibernate/MODEL/serivce/impl/OutcomesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/practice8/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/src/test/java/com/first/first/FirstApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice8/src/test/java/com/first/first/FirstApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/practice8/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice8/target/surefire-reports/TEST-com.first.first.FirstApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice8/target/surefire-reports/TEST-com.first.first.FirstApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice9/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/practice9/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice9/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/practice9/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice9/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/practice9/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice9/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/practice9/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice9/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/practice9/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice9/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/practice9/build.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qYuSwauOpnNczPXfUgSXB8ME5V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Practice15Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="JavaTemplates" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.practice15.Practice15Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b73f183e-7784-468a-b657-742bd63d49ee" name="Default Changelist" comment="" />
+      <created>1617268852427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617268852427</updated>
+      <workItem from="1617268853670" duration="280000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
