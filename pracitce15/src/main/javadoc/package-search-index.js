@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"bookshelf"},{"l":"bookshelf.controllers"},{"l":"bookshelf.models.entity"},{"l":"bookshelf.models.repository"},{"l":"bookshelf.models.service"}];updateSearchResults();

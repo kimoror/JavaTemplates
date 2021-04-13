@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "program.student.last_name",
+      "type": "java.lang.String",
+      "description": "Description for program.student.last_name."
+    },
+    {
+      "name": "program.student.name",
+      "type": "java.lang.String",
+      "description": "Description for program.student.name."
+    },
+    {
+      "name": "program.student.name",
+      "type": "java.lang.String",
+      "description": "Description for program.student.name."
+    }
+  ]
+}
