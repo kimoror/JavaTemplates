@@ -12,6 +12,7 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
+import javax.transaction.Transactional;
 import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,6 +26,7 @@ public class ItemFilterService implements ItemFilterRepository{
 
     @Override
     @Loggable
+    @Transactional
     public List<Item> findItemsByNameAndCreation_dateAndPriceAndOrder_id(String name, Date creation_date, double price, int order_id) {
         CriteriaBuilder cb = em.getCriteriaBuilder();
         CriteriaQuery<Item> itemCriteriaQuery = cb.createQuery(Item.class);

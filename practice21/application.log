@@ -1099,3 +1099,787 @@ java.lang.NullPointerException: Cannot invoke "Object.toString()" because "retur
 67958 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver –Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.sql.Date` from String "1998-05--3": not a valid representation (error: Failed to parse Date value '1998-05--3': Cannot parse date "1998-05--3": while it seems to fit format 'yyyy-MM-dd', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.sql.Date` from String "1998-05--3": not a valid representation (error: Failed to parse Date value '1998-05--3': Cannot parse date "1998-05--3": while it seems to fit format 'yyyy-MM-dd', parsing fails (leniency? null))
  at [Source: (PushbackInputStream); line: 1, column: 32] (through reference chain: com.practice19.models.entities.Item["creation_date"])]
 83660 [http-nio-8080-exec-9] INFO  com.practice19.aspect.LoggingAspect –Method: save. Time: 11 milliseconds.
+1443 [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 17284 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice21\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice21)
+1448 [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+1608 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1609 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2886 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3014 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 115 ms. Found 2 JPA repository interfaces.
+4280 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8080 (http)
+4296 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8080"]
+4297 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+4297 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+4443 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+4443 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 2833 ms
+4743 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+4826 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+5110 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+5383 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+6042 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+6130 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+7312 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7324 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+7383 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+7998 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+8219 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+8372 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+8743 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8080"]
+8789 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8080 (http) with context path ''
+8812 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 8.034 seconds (JVM running for 10.241)
+15387 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring DispatcherServlet 'dispatcherServlet'
+15387 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Initializing Servlet 'dispatcherServlet'
+15393 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Completed initialization in 6 ms
+16987 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound –No mapping for GET /favicon.ico
+18762 [http-nio-8080-exec-5] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 374 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2)]
+47317 [http-nio-8080-exec-6] INFO  com.practice19.aspect.LoggingAspect –Method: save. Time: 53 milliseconds.
+52194 [http-nio-8080-exec-7] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 21 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1)]
+61055 [http-nio-8080-exec-8] WARN  o.h.e.jdbc.spi.SqlExceptionHelper –SQL Error: 0, SQLState: 23503
+61056 [http-nio-8080-exec-8] ERROR o.h.e.jdbc.spi.SqlExceptionHelper –ОШИБКА: INSERT или UPDATE в таблице "items" нарушает ограничение внешнего ключа "items_order_id_fkey"
+  Подробности: Ключ (order_id)=(0) отсутствует в таблице "orders".
+61106 [http-nio-8080-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] –Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+org.postgresql.util.PSQLException: ОШИБКА: INSERT или UPDATE в таблице "items" нарушает ограничение внешнего ключа "items_order_id_fkey"
+  Подробности: Ключ (order_id)=(0) отсутствует в таблице "orders".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:481)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:401)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:130)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:43)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3195)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3801)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:84)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:330)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:287)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:193)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:123)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:93)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:720)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:706)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy90.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311)
+	at com.sun.proxy.$Proxy90.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:557)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:524)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:531)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:156)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:131)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy94.save(Unknown Source)
+	at com.practice19.models.services.ItemsService.save(ItemsService.java:30)
+	at com.practice19.models.services.ItemsService$$FastClassBySpringCGLIB$$ceaec3ff.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.practice19.aspect.LoggingAspect.logMethodCall(LoggingAspect.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.practice19.models.services.ItemsService$$EnhancerBySpringCGLIB$$90e44912.save(<generated>)
+	at com.practice19.controllers.ItemController.addItem(ItemController.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+63445 [http-nio-8080-exec-9] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 10 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1)]
+65105 [http-nio-8080-exec-10] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 6 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1)]
+65694 [http-nio-8080-exec-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 12 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1)]
+65902 [http-nio-8080-exec-3] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 9 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1)]
+1037 [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 20296 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice21\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice21)
+1039 [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+1090 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1090 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1778 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1840 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2549 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8080 (http)
+2559 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8080"]
+2560 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+2560 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+2643 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+2643 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1551 ms
+2814 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2868 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+2984 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3072 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+3297 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+3328 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4065 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4074 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+4126 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+4495 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4617 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+4687 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+4861 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8080"]
+4882 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8080 (http) with context path ''
+4894 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 4.282 seconds (JVM running for 5.798)
+1036 [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 8452 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice21\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice21)
+1039 [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+1106 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1106 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2173 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2247 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 66 ms. Found 2 JPA repository interfaces.
+3017 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8080 (http)
+3026 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8080"]
+3027 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+3027 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+3118 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+3118 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 2009 ms
+3307 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+3360 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+3487 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3596 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+3875 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+3909 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4637 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4647 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+4701 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+4997 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5098 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+5170 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+5326 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8080"]
+5344 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8080 (http) with context path ''
+5353 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 4.92 seconds (JVM running for 6.055)
+11268 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring DispatcherServlet 'dispatcherServlet'
+11268 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Initializing Servlet 'dispatcherServlet'
+11269 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Completed initialization in 1 ms
+13001 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound –No mapping for GET /favicon.ico
+13927 [http-nio-8080-exec-5] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 142 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1)]
+53456 [http-nio-8080-exec-7] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1)]
+55168 [http-nio-8080-exec-8] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1)]
+58501 [http-nio-8080-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] –Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.mail.MailAuthenticationException: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials q16sm4550392lfm.35 - gsmtp
+] with root cause
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials q16sm4550392lfm.35 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:947)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:858)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:762)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:361)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:356)
+	at com.practice19.models.services.EmailService.sendMessageAttach(EmailService.java:38)
+	at com.practice19.models.services.ItemsService.save(ItemsService.java:38)
+	at com.practice19.models.services.ItemsService$$FastClassBySpringCGLIB$$ceaec3ff.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.practice19.aspect.LoggingAspect.logMethodCall(LoggingAspect.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.practice19.models.services.ItemsService$$EnhancerBySpringCGLIB$$f9ab8e00.save(<generated>)
+	at com.practice19.controllers.ItemController.addItem(ItemController.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+797  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 18300 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice21\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice21)
+800  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+836  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+836  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1292 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1346 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+1915 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8080 (http)
+1925 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8080"]
+1925 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+1925 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+2014 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+2014 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1177 ms
+2153 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2204 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+2326 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2402 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+2597 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+2621 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3137 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3144 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+3185 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+3516 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3627 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+3690 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+3854 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8080"]
+3877 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8080 (http) with context path ''
+3888 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 3.386 seconds (JVM running for 4.713)
+12815 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring DispatcherServlet 'dispatcherServlet'
+12816 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Initializing Servlet 'dispatcherServlet'
+12817 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Completed initialization in 1 ms
+14166 [http-nio-8080-exec-2] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 98 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1)]
+20073 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] –Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.mail.MailAuthenticationException: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials e17sm5358516ljn.29 - gsmtp
+] with root cause
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials e17sm5358516ljn.29 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:947)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:858)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:762)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:361)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:356)
+	at com.practice19.models.services.EmailService.sendMessageAttach(EmailService.java:38)
+	at com.practice19.models.services.ItemsService.save(ItemsService.java:38)
+	at com.practice19.models.services.ItemsService$$FastClassBySpringCGLIB$$ceaec3ff.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.practice19.aspect.LoggingAspect.logMethodCall(LoggingAspect.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.practice19.models.services.ItemsService$$EnhancerBySpringCGLIB$$c7e553aa.save(<generated>)
+	at com.practice19.controllers.ItemController.addItem(ItemController.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+738  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 13736 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice21\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice21)
+740  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+779  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+780  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1287 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1340 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+1814 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8080 (http)
+1820 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8080"]
+1821 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+1821 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+1890 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+1890 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1110 ms
+2029 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2061 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+2142 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2206 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+2351 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+2368 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2820 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2827 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+2863 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+3162 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3262 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+3315 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+3453 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8080"]
+3472 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8080 (http) with context path ''
+3481 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 3.04 seconds (JVM running for 4.061)
+14119 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring DispatcherServlet 'dispatcherServlet'
+14120 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Initializing Servlet 'dispatcherServlet'
+14120 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Completed initialization in 0 ms
+16387 [http-nio-8080-exec-2] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 75 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1)]
+20739 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] –Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.mail.MailAuthenticationException: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a25sm2959703ljp.38 - gsmtp
+] with root cause
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a25sm2959703ljp.38 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:947)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:858)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:762)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:361)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:356)
+	at com.practice19.models.services.EmailService.sendMessageAttach(EmailService.java:38)
+	at com.practice19.models.services.ItemsService.save(ItemsService.java:38)
+	at com.practice19.models.services.ItemsService$$FastClassBySpringCGLIB$$ceaec3ff.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.practice19.aspect.LoggingAspect.logMethodCall(LoggingAspect.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.practice19.models.services.ItemsService$$EnhancerBySpringCGLIB$$d44f5696.save(<generated>)
+	at com.practice19.controllers.ItemController.addItem(ItemController.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+680  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 18840 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice21\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice21)
+682  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+717  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+718  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1212 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1270 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+1768 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8080 (http)
+1775 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8080"]
+1775 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+1775 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+1844 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+1844 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1125 ms
+1981 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2015 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+2097 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2172 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+2362 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+2392 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3011 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3023 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+3080 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+3427 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3533 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+3585 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+3720 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8080"]
+3737 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8080 (http) with context path ''
+3746 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 3.362 seconds (JVM running for 4.374)
+18543 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring DispatcherServlet 'dispatcherServlet'
+18543 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Initializing Servlet 'dispatcherServlet'
+18543 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Completed initialization in 0 ms
+21682 [http-nio-8080-exec-6] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 92 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1)]
+50281 [http-nio-8080-exec-4] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 4 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1)]
+55035 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] –Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.mail.MailAuthenticationException: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u3sm5733lff.36 - gsmtp
+] with root cause
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u3sm5733lff.36 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:947)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:858)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:762)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:361)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:356)
+	at com.practice19.models.services.EmailService.sendMessageAttach(EmailService.java:38)
+	at com.practice19.models.services.ItemsService.save(ItemsService.java:38)
+	at com.practice19.models.services.ItemsService$$FastClassBySpringCGLIB$$ceaec3ff.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.practice19.aspect.LoggingAspect.logMethodCall(LoggingAspect.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.practice19.models.services.ItemsService$$EnhancerBySpringCGLIB$$93451186.save(<generated>)
+	at com.practice19.controllers.ItemController.addItem(ItemController.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+929  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 7472 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice21\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice21)
+931  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+965  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+966  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1428 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1477 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+1963 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8080 (http)
+1969 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8080"]
+1970 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+1970 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+2034 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+2034 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1068 ms
+2173 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2207 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+2286 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2354 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+2498 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+2523 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3027 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3040 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+3108 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+3406 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3508 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+3565 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+3695 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8080"]
+3713 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8080 (http) with context path ''
+3722 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 3.146 seconds (JVM running for 4.248)
+9745 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring DispatcherServlet 'dispatcherServlet'
+9745 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Initializing Servlet 'dispatcherServlet'
+9746 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Completed initialization in 1 ms
+10902 [http-nio-8080-exec-2] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 70 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1)]
+21990 [http-nio-8080-exec-1] INFO  com.practice19.aspect.LoggingAspect –Method: save. Time: 12182 milliseconds.
+27740 [http-nio-8080-exec-3] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1)]
+695  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 21024 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice21\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice21)
+697  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+730  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+730  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1216 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1274 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+1798 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8080 (http)
+1807 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8080"]
+1807 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+1807 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+1878 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+1878 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1147 ms
+2030 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2091 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+2251 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2329 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+2488 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+2517 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3172 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3182 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+3247 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+3540 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3641 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+3700 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+3825 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8080"]
+3843 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8080 (http) with context path ''
+3853 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 3.463 seconds (JVM running for 4.463)
+29794 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring DispatcherServlet 'dispatcherServlet'
+29795 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Initializing Servlet 'dispatcherServlet'
+29795 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Completed initialization in 0 ms
+43464 [http-nio-8080-exec-1] INFO  com.practice19.aspect.LoggingAspect –Method: save. Time: 13603 milliseconds.
+58466 [http-nio-8080-exec-2] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 87 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=34, name=newItem, creation_date=2020-03-01, price=20321.0, order_id=1)]
