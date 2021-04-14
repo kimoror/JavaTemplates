@@ -28,7 +28,8 @@ public class LoggingAspect {
         long spendTime = System.currentTimeMillis() - startTime;
         message.append(" Time: ").append(spendTime).append(" milliseconds.");
 
-        message.append(" Return: ").append(returnValue.toString());
+        if(returnValue != null)
+            message.append(" Return: ").append(returnValue.toString());
 
         log.info(message.toString());
         return returnValue;
