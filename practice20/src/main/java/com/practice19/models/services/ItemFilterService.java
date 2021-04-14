@@ -1,5 +1,6 @@
 package com.practice19.models.services;
 
+import com.practice19.aspect.Loggable;
 import com.practice19.models.entities.Item;
 import com.practice19.models.repositories.ItemFilterRepository;
 import lombok.extern.slf4j.Slf4j;
@@ -23,6 +24,7 @@ public class ItemFilterService implements ItemFilterRepository{
     EntityManager em;
 
     @Override
+    @Loggable
     public List<Item> findItemsByNameAndCreation_dateAndPriceAndOrder_id(String name, Date creation_date, double price, int order_id) {
         CriteriaBuilder cb = em.getCriteriaBuilder();
         CriteriaQuery<Item> itemCriteriaQuery = cb.createQuery(Item.class);
