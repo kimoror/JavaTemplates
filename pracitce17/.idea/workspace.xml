@@ -5,32 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5167efe6-06d7-4f29-8db5-e53761bee725" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Report.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/Practice15Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/controllers/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/controllers/ItemController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/controllers/OrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/models/entities/Items.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/models/entities/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/models/repositories/ItemsRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/models/repositories/OrdersRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/models/services/ItemsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice16/models/services/OrdersService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/items.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/orders.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/items.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/orders.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/practice16/Practice15ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pracitce17,18/src/main/resources/static/js/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice19/src/main/resources/static/js/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice20/src/main/resources/static/js/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice21/src/main/resources/static/js/vue.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../practice8" beforeDir="false" afterPath="$PROJECT_DIR$/../practice8" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PostgreSQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../practice19" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pracitce16" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -144,6 +122,7 @@
       <workItem from="1617697013632" duration="20741000" />
       <workItem from="1617720815617" duration="10013000" />
       <workItem from="1617745455110" duration="448000" />
+      <workItem from="1618428831994" duration="32000" />
     </task>
     <servers />
   </component>
