@@ -34,6 +34,7 @@ public class ItemsService {
     @Loggable
     @Transactional
     public void save(Item item){
+
         itemsRepository.save(item);
         emailService.sendMessageAttach(item.getName());
         }
