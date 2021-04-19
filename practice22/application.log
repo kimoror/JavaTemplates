@@ -1,0 +1,508 @@
+1102 [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 23136 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22)
+1109 [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+1181 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1181 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2742 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2909 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 145 ms. Found 2 JPA repository interfaces.
+4455 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8081 (http)
+4476 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8081"]
+4480 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+4481 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+4673 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+4673 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 3491 ms
+5110 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+5220 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+5495 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+5685 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+6112 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+6143 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+7328 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7336 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+7395 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+7755 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+7878 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+7952 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+8089 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler –Initializing ExecutorService 'taskScheduler'
+8145 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8081"]
+8171 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8081 (http) with context path ''
+8184 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 7.575 seconds (JVM running for 9.275)
+805  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 22980 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22)
+808  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+861  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+862  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1425 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1488 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2084 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8081 (http)
+2091 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8081"]
+2092 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+2092 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+2163 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+2163 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1300 ms
+2323 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2359 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+2445 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2520 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+2706 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+2726 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3242 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3250 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+3300 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+3706 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext –Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sheduleService' defined in file [C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22\target\classes\com\practice19\models\services\SheduleService.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'start': Cron expression must consist of 6 fields (found 7 in "10 0 0 * * * *")
+3706 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Closing JPA EntityManagerFactory for persistence unit 'default'
+3711 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Shutdown initiated...
+3717 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Shutdown completed.
+3720 [restartedMain] INFO  o.a.catalina.core.StandardService –Stopping service [Tomcat]
+3741 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener –
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+3768 [restartedMain] ERROR o.s.boot.SpringApplication –Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sheduleService' defined in file [C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22\target\classes\com\practice19\models\services\SheduleService.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'start': Cron expression must consist of 6 fields (found 7 in "10 0 0 * * * *")
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:610)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:769)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.practice19.Practice15Application.main(Practice15Application.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Encountered invalid @Scheduled method 'start': Cron expression must consist of 6 fields (found 7 in "10 0 0 * * * *")
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:511)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$null$1(ScheduledAnnotationBeanPostProcessor.java:374)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:374)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:723)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:437)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	... 21 common frames omitted
+801  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 4276 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22)
+804  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+850  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+851  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1406 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1469 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2039 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8081 (http)
+2046 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8081"]
+2047 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+2047 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+2119 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+2119 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1268 ms
+2288 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2326 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+2420 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2494 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+2682 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+2700 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3250 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3260 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+3306 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+3682 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3793 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+3856 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+3970 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler –Initializing ExecutorService 'taskScheduler'
+4032 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8081"]
+4052 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8081 (http) with context path ''
+4064 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 3.622 seconds (JVM running for 4.702)
+774  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 13008 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22)
+778  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+825  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+825  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1383 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1443 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2047 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8081 (http)
+2054 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8081"]
+2054 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+2054 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+2123 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+2123 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1297 ms
+2290 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2328 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+2420 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2493 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+2670 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+2689 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3259 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3276 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+3326 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+692  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 22208 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22)
+695  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+748  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+749  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1474 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1562 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 79 ms. Found 2 JPA repository interfaces.
+2334 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8081 (http)
+2343 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8081"]
+2343 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+2344 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+2439 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+2439 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1689 ms
+2659 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2701 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+2827 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2935 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+3160 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+3182 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3845 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3858 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+3916 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+4398 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4545 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+4624 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+4793 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler –Initializing ExecutorService 'taskScheduler'
+4864 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8081"]
+4888 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8081 (http) with context path ''
+4902 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 4.539 seconds (JVM running for 6.512)
+34853 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler –Shutting down ExecutorService 'taskScheduler'
+34853 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor –Shutting down ExecutorService 'applicationTaskExecutor'
+34854 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Closing JPA EntityManagerFactory for persistence unit 'default'
+34857 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Shutdown initiated...
+34866 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Shutdown completed.
+936  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 5092 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22)
+939  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+994  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+995  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1731 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1796 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2561 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8081 (http)
+2571 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8081"]
+2571 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+2571 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+2655 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+2655 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1659 ms
+2855 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2919 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+3068 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3191 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+3552 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+3577 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4407 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4418 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+4472 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+4878 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5008 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+5087 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+5244 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler –Initializing ExecutorService 'taskScheduler'
+5308 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8081"]
+5331 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8081 (http) with context path ''
+5345 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 4.785 seconds (JVM running for 6.525)
+51208 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 19-04-2021 00:37:00
+139782 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool –HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m46s126ms973µs500ns).
+139786 [scheduling-1] INFO  c.p.models.services.SheduleService –File test.txt was deleted: true
+153977 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler –Shutting down ExecutorService 'taskScheduler'
+153978 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor –Shutting down ExecutorService 'applicationTaskExecutor'
+153979 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Closing JPA EntityManagerFactory for persistence unit 'default'
+153983 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Shutdown initiated...
+153989 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Shutdown completed.
+923  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 23544 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22)
+925  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+970  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+970  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1627 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1695 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2356 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8081 (http)
+2365 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8081"]
+2365 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+2365 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+2449 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+2449 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1478 ms
+2632 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2693 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+2834 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2952 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+3201 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+3225 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3935 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3942 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+3983 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+4375 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4493 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+4574 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+4706 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler –Initializing ExecutorService 'taskScheduler'
+4769 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8081"]
+4797 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8081 (http) with context path ''
+4814 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 4.345 seconds (JVM running for 5.591)
+14490 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 19-04-2021 01:10:00
+14632 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 125 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=34, name=newItem, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=35, name=phone321, creation_date=2020-03-10, price=310000.0, order_id=1), Item(id=36, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=37, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=38, name=dsad111, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=39, name=Suit, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=40, name=vue js, creation_date=2021-04-16, price=1000000.0, order_id=2)]
+74495 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 19-04-2021 01:11:00
+74498 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+74504 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 4 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=34, name=newItem, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=35, name=phone321, creation_date=2020-03-10, price=310000.0, order_id=1), Item(id=36, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=37, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=38, name=dsad111, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=39, name=Suit, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=40, name=vue js, creation_date=2021-04-16, price=1000000.0, order_id=2)]
+134498 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 19-04-2021 01:12:00
+134499 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+134506 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 4 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=34, name=newItem, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=35, name=phone321, creation_date=2020-03-10, price=310000.0, order_id=1), Item(id=36, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=37, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=38, name=dsad111, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=39, name=Suit, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=40, name=vue js, creation_date=2021-04-16, price=1000000.0, order_id=2)]
+1410 [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 22044 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22)
+1414 [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+1485 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1486 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2105 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2182 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+739  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 19968 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22)
+743  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+805  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+806  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1539 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1619 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2340 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8081 (http)
+2347 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8081"]
+2348 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+2348 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+2431 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+2431 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1624 ms
+2627 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2680 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+2789 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2892 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+3081 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+3106 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3782 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3790 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+3836 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+5124 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5376 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+5589 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+5887 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler –Initializing ExecutorService 'taskScheduler'
+6022 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8081"]
+6082 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8081 (http) with context path ''
+6114 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 5.761 seconds (JVM running for 7.782)
+39775 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 19-04-2021 01:13:14
+39787 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+40180 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 333 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=34, name=newItem, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=35, name=phone321, creation_date=2020-03-10, price=310000.0, order_id=1), Item(id=36, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=37, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=38, name=dsad111, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=39, name=Suit, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=40, name=vue js, creation_date=2021-04-16, price=1000000.0, order_id=2)]
+85089 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 19-04-2021 01:14:00
+85090 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+85106 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 13 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=34, name=newItem, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=35, name=phone321, creation_date=2020-03-10, price=310000.0, order_id=1), Item(id=36, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=37, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=38, name=dsad111, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=39, name=Suit, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=40, name=vue js, creation_date=2021-04-16, price=1000000.0, order_id=2)]
+145098 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 19-04-2021 01:15:00
+145100 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+145107 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 5 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=34, name=newItem, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=35, name=phone321, creation_date=2020-03-10, price=310000.0, order_id=1), Item(id=36, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=37, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=38, name=dsad111, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=39, name=Suit, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=40, name=vue js, creation_date=2021-04-16, price=1000000.0, order_id=2)]
+178802 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler –Shutting down ExecutorService 'taskScheduler'
+178803 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor –Shutting down ExecutorService 'applicationTaskExecutor'
+178804 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Closing JPA EntityManagerFactory for persistence unit 'default'
+178808 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Shutdown initiated...
+178813 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Shutdown completed.
+964  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 13372 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22)
+968  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+1015 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1016 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1592 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1654 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
+2283 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8081 (http)
+2291 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8081"]
+2292 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+2292 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+2377 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+2377 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1360 ms
+2574 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2619 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+2714 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2789 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+2974 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+2992 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3665 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3678 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+3747 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+4213 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4323 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+4387 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+4512 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler –Initializing ExecutorService 'taskScheduler'
+4575 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8081"]
+4595 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8081 (http) with context path ''
+4607 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 4.032 seconds (JVM running for 5.509)
+24367 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 19-04-2021 01:16:00
+24372 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+24500 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 108 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=34, name=newItem, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=35, name=phone321, creation_date=2020-03-10, price=310000.0, order_id=1), Item(id=36, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=37, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=38, name=dsad111, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=39, name=Suit, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=40, name=vue js, creation_date=2021-04-16, price=1000000.0, order_id=2)]
+84364 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 19-04-2021 01:17:00
+84365 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+84373 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 6 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=34, name=newItem, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=35, name=phone321, creation_date=2020-03-10, price=310000.0, order_id=1), Item(id=36, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=37, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=38, name=dsad111, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=39, name=Suit, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=40, name=vue js, creation_date=2021-04-16, price=1000000.0, order_id=2)]
+965  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 22524 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22)
+968  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+1020 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1021 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1731 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1811 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2535 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8081 (http)
+2545 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8081"]
+2545 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+2545 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+2634 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+2634 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1612 ms
+2813 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2875 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+3020 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3120 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+3353 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+3374 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4077 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4085 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+4139 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+4508 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4626 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+4703 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+4836 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler –Initializing ExecutorService 'taskScheduler'
+4909 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8081"]
+4928 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8081 (http) with context path ''
+4939 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 4.369 seconds (JVM running for 5.541)
+22345 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 19-04-2021 01:24:00
+22350 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+22483 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 116 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=34, name=newItem, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=35, name=phone321, creation_date=2020-03-10, price=310000.0, order_id=1), Item(id=36, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=37, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=38, name=dsad111, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=39, name=Suit, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=40, name=vue js, creation_date=2021-04-16, price=1000000.0, order_id=2)]
+22535 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 20 milliseconds. Return: [Order(id=1, order_date=2014-12-09, items=[Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=34, name=newItem, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=35, name=phone321, creation_date=2020-03-10, price=310000.0, order_id=1), Item(id=36, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=37, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=38, name=dsad111, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=39, name=Suit, creation_date=2020-03-10, price=310.0, order_id=1)]), Order(id=2, order_date=2020-07-27, items=[Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=40, name=vue js, creation_date=2021-04-16, price=1000000.0, order_id=2)]), Order(id=4, order_date=2021-04-11, items=[Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4)])]
+22542 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler –Unexpected error occurred in scheduled task
+java.util.UnknownFormatConversionException: Conversion = 't'
+	at java.base/java.util.Formatter$FormatSpecifier.<init>(Formatter.java:2880)
+	at java.base/java.util.Formatter.parse(Formatter.java:2713)
+	at java.base/java.util.Formatter.format(Formatter.java:2655)
+	at java.base/java.util.Formatter.format(Formatter.java:2609)
+	at java.base/java.lang.String.format(String.java:3292)
+	at com.practice19.models.services.SheduleService.lambda$start$2(SheduleService.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.practice19.models.services.SheduleService.start(SheduleService.java:75)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+767  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 7132 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22)
+772  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+819  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+819  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1405 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1469 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2041 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8081 (http)
+2048 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8081"]
+2048 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+2048 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+2122 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+2123 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1303 ms
+2294 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2339 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+2438 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2519 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+2676 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+2694 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3236 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3244 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+3300 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+3675 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3793 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+3865 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+3986 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler –Initializing ExecutorService 'taskScheduler'
+4041 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8081"]
+4060 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8081 (http) with context path ''
+4077 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 3.67 seconds (JVM running for 4.707)
+22393 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 19-04-2021 01:25:00
+22397 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+22397 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+22521 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 107 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=34, name=newItem, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=35, name=phone321, creation_date=2020-03-10, price=310000.0, order_id=1), Item(id=36, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=37, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=38, name=dsad111, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=39, name=Suit, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=40, name=vue js, creation_date=2021-04-16, price=1000000.0, order_id=2)]
+22560 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 10 milliseconds. Return: [Order(id=1, order_date=2014-12-09, items=[Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=34, name=newItem, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=35, name=phone321, creation_date=2020-03-10, price=310000.0, order_id=1), Item(id=36, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=37, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=38, name=dsad111, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=39, name=Suit, creation_date=2020-03-10, price=310.0, order_id=1)]), Order(id=2, order_date=2020-07-27, items=[Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=40, name=vue js, creation_date=2021-04-16, price=1000000.0, order_id=2)]), Order(id=4, order_date=2021-04-11, items=[Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4)])]
+22566 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler –Unexpected error occurred in scheduled task
+java.util.UnknownFormatConversionException: Conversion = 'T'
+	at java.base/java.util.Formatter$FormatSpecifier.conversion(Formatter.java:2839)
+	at java.base/java.util.Formatter$FormatSpecifier.<init>(Formatter.java:2865)
+	at java.base/java.util.Formatter.parse(Formatter.java:2713)
+	at java.base/java.util.Formatter.format(Formatter.java:2655)
+	at java.base/java.util.Formatter.format(Formatter.java:2609)
+	at java.base/java.lang.String.format(String.java:3292)
+	at com.practice19.models.services.SheduleService.lambda$start$2(SheduleService.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.practice19.models.services.SheduleService.start(SheduleService.java:75)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+776  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 23156 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22)
+780  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+823  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+824  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1394 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1458 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2037 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8081 (http)
+2043 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8081"]
+2044 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+2044 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+2118 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+2118 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1293 ms
+2286 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2323 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+2422 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2497 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+2672 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+2690 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3236 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3250 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+3297 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+3638 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3745 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+3812 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+3927 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler –Initializing ExecutorService 'taskScheduler'
+3986 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8081"]
+4005 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8081 (http) with context path ''
+4017 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 3.598 seconds (JVM running for 4.67)
+27143 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 19-04-2021 01:26:00
+27147 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+27148 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+27256 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 92 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=34, name=newItem, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=35, name=phone321, creation_date=2020-03-10, price=310000.0, order_id=1), Item(id=36, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=37, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=38, name=dsad111, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=39, name=Suit, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=40, name=vue js, creation_date=2021-04-16, price=1000000.0, order_id=2)]
+27296 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 11 milliseconds. Return: [Order(id=1, order_date=2014-12-09, items=[Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=34, name=newItem, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=35, name=phone321, creation_date=2020-03-10, price=310000.0, order_id=1), Item(id=36, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=37, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=38, name=dsad111, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=39, name=Suit, creation_date=2020-03-10, price=310.0, order_id=1)]), Order(id=2, order_date=2020-07-27, items=[Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=40, name=vue js, creation_date=2021-04-16, price=1000000.0, order_id=2)]), Order(id=4, order_date=2021-04-11, items=[Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4)])]
+27301 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+740  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 5400 (C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22\target\classes started by Danila in C:\Users\Danila\GoogleDrive\Institute\4-rd_semestr\JavaTemplates\practice22)
+743  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+787  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+787  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1375 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1438 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2005 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8081 (http)
+2012 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8081"]
+2012 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+2012 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+2084 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+2084 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1296 ms
+2238 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+2275 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+2367 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2441 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+2607 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+2634 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3141 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3150 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+3208 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+3597 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3711 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+3787 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+3911 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler –Initializing ExecutorService 'taskScheduler'
+3972 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8081"]
+3991 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8081 (http) with context path ''
+4003 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 3.609 seconds (JVM running for 4.643)
+11590 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 19-04-2021 01:27:00
+11594 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+11595 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+11716 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 107 milliseconds. Return: [Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=34, name=newItem, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=35, name=phone321, creation_date=2020-03-10, price=310000.0, order_id=1), Item(id=36, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=37, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=38, name=dsad111, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=39, name=Suit, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=40, name=vue js, creation_date=2021-04-16, price=1000000.0, order_id=2)]
+11754 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 10 milliseconds. Return: [Order(id=1, order_date=2014-12-09, items=[Item(id=1, name=pen, creation_date=2020-03-11, price=122.0, order_id=1), Item(id=5, name=phwee, creation_date=2020-03-11, price=34321.0, order_id=1), Item(id=6, name=phwee2, creation_date=2020-03-12, price=3333.0, order_id=1), Item(id=14, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=1), Item(id=15, name=asf, creation_date=2020-04-07, price=40002.0, order_id=1), Item(id=16, name=zxcvbn, creation_date=2011-03-09, price=13.0, order_id=1), Item(id=7, name=phone2, creation_date=2020-02-03, price=30000.0, order_id=1), Item(id=11, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=1), Item(id=10, name=asdf, creation_date=2020-02-03, price=34000.0, order_id=1), Item(id=17, name=phone, creation_date=2020-03-01, price=21000.0, order_id=1), Item(id=27, name=pascwq, creation_date=2020-03-11, price=321.0, order_id=1), Item(id=33, name=hjonw23s, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=34, name=newItem, creation_date=2020-03-01, price=20321.0, order_id=1), Item(id=35, name=phone321, creation_date=2020-03-10, price=310000.0, order_id=1), Item(id=36, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=37, name=phone3213, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=38, name=dsad111, creation_date=2020-03-10, price=310.0, order_id=1), Item(id=39, name=Suit, creation_date=2020-03-10, price=310.0, order_id=1)]), Order(id=2, order_date=2020-07-27, items=[Item(id=2, name=book, creation_date=2019-06-25, price=674.0, order_id=2), Item(id=4, name=phone1232, creation_date=2020-01-02, price=300000.0, order_id=2), Item(id=12, name=Seregz, creation_date=2001-01-01, price=45.0, order_id=2), Item(id=13, name=asdf, creation_date=2020-03-01, price=340001.0, order_id=2), Item(id=21, name=human, creation_date=2020-03-01, price=666.0, order_id=2), Item(id=25, name=ohone, creation_date=2020-03-02, price=300200.0, order_id=2), Item(id=26, name=cola, creation_date=1998-05-03, price=44.0, order_id=2), Item(id=40, name=vue js, creation_date=2021-04-16, price=1000000.0, order_id=2)]), Order(id=4, order_date=2021-04-11, items=[Item(id=18, name=phonedddd, creation_date=2020-03-01, price=21000.0, order_id=4)])]
+11758 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
