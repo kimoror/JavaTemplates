@@ -1,0 +1,145 @@
+610  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.3 on MacBook-Air-Danila.local with PID 7294 (/Users/danila/GoogleDrive/Institute/4-rd_semestr/JavaTemplates/practice23V3-again/target/classes started by danila in /Users/danila/GoogleDrive/Institute/4-rd_semestr/JavaTemplates/practice23V3-again)
+614  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+647  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+648  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1164 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1214 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 47 ms. Found 3 JPA repository interfaces.
+1450 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker –Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4d75ec38' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+1454 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker –Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+1637 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8080 (http)
+1641 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8080"]
+1642 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+1642 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+1674 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+1674 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1026 ms
+1781 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+1800 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+1845 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1879 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+1920 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+1929 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2214 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2218 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+2248 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+2419 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2572 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain –Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12a53eee, org.springframework.security.web.context.SecurityContextPersistenceFilter@75d724fc, org.springframework.security.web.header.HeaderWriterFilter@59e027c8, org.springframework.security.web.authentication.logout.LogoutFilter@319c219c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1da3aa6f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@487d550b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a21924e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5352719b, org.springframework.security.web.session.SessionManagementFilter@52a372e0, org.springframework.security.web.access.ExceptionTranslationFilter@39ef6d44, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2060df32]
+2646 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+2690 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+2773 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler –Initializing ExecutorService 'taskScheduler'
+2803 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8080"]
+2813 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext –Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2813 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler –Shutting down ExecutorService 'taskScheduler'
+2813 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Shutting down ExecutorService 'applicationTaskExecutor'
+2814 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Closing JPA EntityManagerFactory for persistence unit 'default'
+2816 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Shutdown initiated...
+2817 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Shutdown completed.
+2818 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Pausing ProtocolHandler ["http-nio-8080"]
+2818 [restartedMain] INFO  o.a.catalina.core.StandardService –Stopping service [Tomcat]
+2821 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Stopping ProtocolHandler ["http-nio-8080"]
+2821 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Destroying ProtocolHandler ["http-nio-8080"]
+2826 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener –
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2833 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter –
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+241  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.3 on MacBook-Air-Danila.local with PID 7314 (/Users/danila/GoogleDrive/Institute/4-rd_semestr/JavaTemplates/practice23V3-again/target/classes started by danila in /Users/danila/GoogleDrive/Institute/4-rd_semestr/JavaTemplates/practice23V3-again)
+242  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+257  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+257  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+551  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+576  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+723  [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker –Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3f6b5477' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+726  [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker –Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+872  [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8080 (http)
+877  [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8080"]
+877  [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+877  [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+909  [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+910  [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 652 ms
+1011 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+1027 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+1062 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1090 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+1129 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+1138 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1437 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1440 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+1472 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+1629 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+1793 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain –Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22b3d7d, org.springframework.security.web.context.SecurityContextPersistenceFilter@60d89ba7, org.springframework.security.web.header.HeaderWriterFilter@797e11f0, org.springframework.security.web.authentication.logout.LogoutFilter@1f301862, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4b18eced, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66eae61a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@39ed7394, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5854dbeb, org.springframework.security.web.session.SessionManagementFilter@678fec94, org.springframework.security.web.access.ExceptionTranslationFilter@64f994e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@66b332b1]
+1870 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+1918 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+1995 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler –Initializing ExecutorService 'taskScheduler'
+2026 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8080"]
+2032 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8080 (http) with context path ''
+2039 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 1.908 seconds (JVM running for 2.251)
+11620 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring DispatcherServlet 'dispatcherServlet'
+11620 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Initializing Servlet 'dispatcherServlet'
+11621 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Completed initialization in 1 ms
+44983 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 04-05-2021 00:54:00
+44992 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+44993 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+45086 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 70 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+45101 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 6 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+45103 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+55889 [http-nio-8080-exec-2] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+104977 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 04-05-2021 00:55:00
+104980 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+104980 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+104987 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 5 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+104995 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+104996 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+164981 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 04-05-2021 00:56:00
+164982 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+164982 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+164984 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+164988 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+164989 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+224976 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 04-05-2021 00:56:59
+224978 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+224978 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+224982 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+224990 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+224993 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+284981 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 04-05-2021 00:58:00
+284983 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+284983 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+284986 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+284990 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+284991 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+344982 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 04-05-2021 00:59:00
+344984 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+344985 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+344990 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+344999 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+345002 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+377025 [http-nio-8080-exec-7] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+404982 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 04-05-2021 01:00:00
+404984 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+404985 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+404993 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 5 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+405003 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 4 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+405005 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+464980 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 04-05-2021 01:01:00
+464981 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+464981 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+464983 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 0 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+464985 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+464985 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+469980 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler –Shutting down ExecutorService 'taskScheduler'
+469981 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor –Shutting down ExecutorService 'applicationTaskExecutor'
+469981 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Closing JPA EntityManagerFactory for persistence unit 'default'
+469983 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Shutdown initiated...
+469985 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Shutdown completed.
