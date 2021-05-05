@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Orders</title>
+    <!--    <script src="https://unpkg.com/vue@next"></script>-->
+</head>
+<body>
+<div id="ordersApp">
+    <button @click="getOrders">List of orders</button>
+    <dl v-if="flagOrdersView">
+        <dt>Orders:</dt>
+        <dd v-for="order in orders">
+            {{'id '+ order.id + ': order_date - ' +  order.order_date}}
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;items:</p>
+            <p v-for="item in order.items">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                {{'id: ' + item.id + '; name ' + item.name + '; creation_date ' + item.creation_date + '; price: ' + item.price}}</p>
+        </dd>
+    </dl>
+    <form>
+        <label>
+            Order date:
+            <input placeholder="2020-03-02" v-model="order.order_date" required>
+        </label>
+    </form>
+    <button @click="addOrder">add order</button>
+    <br>
+    <label>
+        Input id of order which you want to delete
+        <br>
+        <input v-model="delete_id" placeholder="1" pattern="[0-9]+">
+    </label>
+    <button @click = "deleteOrder">delete order</button>
+
+</div>
+<script type="text/javascript" src="../static/js/orders.js"></script>
+</body>
+</html>
