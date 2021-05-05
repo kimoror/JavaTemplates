@@ -6622,3 +6622,309 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 401254 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
 401256 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 0 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
 401257 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+461254 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:41:00
+461255 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+461255 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+461258 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+461264 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+461265 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+521254 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:42:00
+521256 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+521256 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+521261 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+521267 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+521269 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+581254 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:43:00
+581256 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+581256 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+581262 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+581272 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+581274 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+641253 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:44:00
+641255 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+641256 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+641262 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+641272 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+641274 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+701250 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:45:00
+701251 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+701251 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+701252 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 0 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+701255 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+701256 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+761255 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:46:00
+761255 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+761256 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+761260 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+761265 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+761266 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+783643 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler –Shutting down ExecutorService 'taskScheduler'
+783643 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor –Shutting down ExecutorService 'applicationTaskExecutor'
+783644 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Closing JPA EntityManagerFactory for persistence unit 'default'
+783646 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Shutdown initiated...
+783647 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Shutdown completed.
+291  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.3 on MacBook-Air-Danila.local with PID 5245 (/Users/danila/GoogleDrive/Institute/4-rd_semestr/JavaTemplates/practice24/target/classes started by danila in /Users/danila/GoogleDrive/Institute/4-rd_semestr/JavaTemplates/practice24)
+293  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+313  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+313  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+588  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+613  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+815  [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker –Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@132ab3c0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+818  [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker –Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+969  [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8080 (http)
+973  [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8080"]
+973  [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+973  [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+1004 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+1004 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 690 ms
+1114 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+1131 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+1178 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1210 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+1246 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+1254 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1536 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1539 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+1569 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+1730 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+1879 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain –Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45a240a8, org.springframework.security.web.context.SecurityContextPersistenceFilter@795bfa1f, org.springframework.security.web.header.HeaderWriterFilter@374bf602, org.springframework.security.web.authentication.logout.LogoutFilter@1a171da8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@61078835, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48e892b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e51336, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@592de5c8, org.springframework.security.web.session.SessionManagementFilter@5a21924e, org.springframework.security.web.access.ExceptionTranslationFilter@24eae1f0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7e859a4d]
+1952 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+1994 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+2086 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler –Initializing ExecutorService 'taskScheduler'
+2119 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8080"]
+2124 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8080 (http) with context path ''
+2131 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 1.982 seconds (JVM running for 2.342)
+11284 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring DispatcherServlet 'dispatcherServlet'
+11285 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Initializing Servlet 'dispatcherServlet'
+11286 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Completed initialization in 1 ms
+11365 [http-nio-8080-exec-1] WARN  o.s.w.s.m.a.ResponseStatusExceptionResolver –Resolved [com.practice19.exceptions.UserAlreadyExistsException: Username 'zxcv@mail.com' already exists]
+33472 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:47:00
+33477 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+33477 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+33517 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 20 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+33545 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 9 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+33549 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+44155 [http-nio-8080-exec-4] WARN  o.s.w.s.m.a.ResponseStatusExceptionResolver –Resolved [com.practice19.exceptions.UserAlreadyExistsException: Username 'ji@mail.com' already exists]
+93470 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:48:00
+93471 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+93472 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+93475 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+93485 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+93488 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+110523 [http-nio-8080-exec-6] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+153467 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:49:00
+153469 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+153469 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+153476 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 4 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+153484 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+153486 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+213472 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:50:00
+213474 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+213474 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+213480 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 4 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+213487 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+213489 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+273468 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:51:00
+273468 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+273469 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+273472 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+273482 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+273484 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+333472 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:52:00
+333474 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+333474 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+333481 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+333491 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+333493 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+393467 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:53:00
+393468 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+393468 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+393472 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+393477 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+393479 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+453471 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:54:00
+453472 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+453473 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+453477 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+453482 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+453483 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+513472 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:55:00
+513472 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+513473 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+513474 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+513477 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+513478 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+573469 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:56:00
+573469 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+573469 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+573473 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+573481 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+573483 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+633467 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:57:00
+633468 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+633468 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+633470 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+633474 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+633475 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+693469 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:58:00
+693470 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+693470 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+693473 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+693478 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+693479 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+753467 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 13:59:00
+753469 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+753469 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+753470 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 0 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+753473 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+753473 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+813472 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:00:00
+813474 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+813474 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+813480 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+813486 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+813487 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+873472 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:01:00
+873473 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+873474 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+873478 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+873484 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+873486 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+933473 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:02:00
+933474 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+933474 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+933479 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+933486 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+933488 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+993472 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:03:00
+993473 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+993474 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+993478 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+993484 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+993485 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+1053472 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:04:00
+1053473 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+1053473 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+1053479 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+1053485 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+1053487 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+1113472 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:05:00
+1113473 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+1113474 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+1113479 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+1113484 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+1113485 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+1173472 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:06:00
+1173473 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+1173473 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+1173476 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+1173482 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+1173483 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+1233471 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:07:00
+1233471 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+1233472 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+1233474 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+1233476 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+1233477 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+1293472 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:08:00
+1293473 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+1293473 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+1293478 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+1293487 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+1293489 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+1353441 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:08:59
+1353443 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+1353444 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+1353449 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+1353457 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+1353459 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+1413466 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:09:59
+1413477 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+1413477 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+1413480 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+1413485 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+1413487 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+1473467 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:11:00
+1473468 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+1473468 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+1473474 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+1473482 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+1473484 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+1533467 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:12:00
+1533469 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+1533470 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+1533474 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+1533480 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+1533482 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+1593471 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:13:00
+1593473 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+1593473 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+1593478 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+1593485 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+1593486 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+1653467 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:14:00
+1653469 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+1653470 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+1653475 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+1653482 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+1653484 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+1713467 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:15:00
+1713478 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+1713478 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+1713499 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+1713557 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+1713589 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+1773471 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:16:00
+1773473 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+1773474 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+1773484 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 6 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+1773495 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 4 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+1773498 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+1833467 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:17:00
+1833469 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+1833469 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+1833479 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 5 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+1833487 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+1833490 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+1893468 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:18:00
+1893469 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+1893469 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+1893473 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 2 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+1893481 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+1893483 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+1953467 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:19:00
+1953469 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+1953469 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+1953475 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 4 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+1953482 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+1953484 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+2013467 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:20:00
+2013469 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+2013469 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+2013475 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+2013481 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+2013483 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+2073467 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:21:00
+2073468 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+2073469 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+2073474 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+2073484 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+2073486 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+2133468 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:22:00
+2133471 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+2133471 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+2133477 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+2133485 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+2133487 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+2193467 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:23:00
+2193469 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+2193469 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+2193474 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 3 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+2193480 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+2193482 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
+2253471 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task started at 05-05-2021 14:24:00
+2253472 [scheduling-1] INFO  c.p.models.services.SheduleService –File items.txt was deleted: true
+2253472 [scheduling-1] INFO  c.p.models.services.SheduleService –File orders.txt was deleted: true
+2253474 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 1 milliseconds. Return: [Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1), Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)]
+2253478 [scheduling-1] INFO  com.practice19.aspect.LoggingAspect –Method: getAll. Time: 0 milliseconds. Return: [Order(id=1, order_date=2020-05-10, items=[Item(id=1, name=Apple, creation_date=2019-05-04, price=200.0, order_id=1), Item(id=2, name=Phone, creation_date=2019-01-03, price=49990.0, order_id=1)]), Order(id=2, order_date=2020-03-02, items=[Item(id=3, name=phone3, creation_date=2020-04-09, price=5134.0, order_id=2)])]
+2253478 [scheduling-1] INFO  c.p.models.services.SheduleService –SCHEDULED task finished.
