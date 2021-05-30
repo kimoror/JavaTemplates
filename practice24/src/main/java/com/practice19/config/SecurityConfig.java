@@ -16,20 +16,20 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 @EnableWebSecurity
-@Configuration
-@EnableGlobalMethodSecurity(prePostEnabled = true)
-public class SecurityConfig extends WebSecurityConfigurerAdapter {
+        @Configuration
+        @EnableGlobalMethodSecurity(prePostEnabled = true)
+        public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-    private final UserDetailsService userDetailsService;
+            private final UserDetailsService userDetailsService;
 
-    public SecurityConfig(@Qualifier("userDetailsServiceImpl") UserDetailsService userDetailsService) {
-        this.userDetailsService = userDetailsService;
-    }
+            public SecurityConfig(@Qualifier("userDetailsServiceImpl") UserDetailsService userDetailsService) {
+                this.userDetailsService = userDetailsService;
+            }
 
-    //TODO изменить пути
-    protected void configure(HttpSecurity http) throws Exception{
-        http
-                .csrf().disable()
+            //TODO изменить пути
+            protected void configure(HttpSecurity http) throws Exception{
+                http
+                        .csrf().disable()
                 .authorizeRequests()
                 .antMatchers("/", "/auth/registration", "/auth/add").permitAll()
                 .anyRequest()

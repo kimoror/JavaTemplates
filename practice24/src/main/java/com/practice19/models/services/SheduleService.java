@@ -49,7 +49,7 @@ public class SheduleService {
         });
 
 
-        BufferedWriter iBufWriter = createWriter(path, "items.txt");;
+        BufferedWriter iBufWriter = createWriter(path, "items.txt");
         iBufWriter.write("id|name|creationDate|price\n");
         itemsService.getAll().forEach(item ->
         {

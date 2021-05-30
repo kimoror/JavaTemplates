@@ -15,6 +15,7 @@ import org.json.*;
 
 
 @Controller
+@RequestMapping("/api")
 public class ItemController {
 
     @Autowired
@@ -29,12 +30,14 @@ public class ItemController {
 
     @RequestMapping(value = "/items/getItems", method = RequestMethod.GET)
     @ResponseBody
+    @CrossOrigin(origins = "http://localhost:8080")
     public ArrayList<Item> getItems() {
         return itemsService.getAll();
     }
 
     @RequestMapping(value = "/items/delete_item", method = RequestMethod.POST)
     @ResponseBody
+    @CrossOrigin(origins = "http://localhost:8080")
     public void deleteItem(@RequestBody String delete_id_json) {
         JSONObject obj = new JSONObject(delete_id_json);
         String delete_id = obj.getString("delete_id");
@@ -43,6 +46,7 @@ public class ItemController {
 
     @RequestMapping(value = "/items/addItem",  method = RequestMethod.POST)
     @ResponseBody
+    @CrossOrigin(origins = "http://localhost:8080")
     public void addItem(@RequestBody() Item item){
 //        items.getOrder().getId();
         itemsService.save(item);
@@ -51,6 +55,7 @@ public class ItemController {
     @RequestMapping(value = "items/filter", method = RequestMethod.POST)
     @ResponseBody
 //    @RequestParam String name, @RequestParam(name = "date") String reqDate, @RequestParam Double price, @RequestParam int order_id
+    @CrossOrigin(origins = "http://localhost:8080")
     public List<Item> filter(@RequestBody() filterItemsDTO itemDTO){
 //        Date reqDate = Date.valueOf(date);
         System.out.println(1);

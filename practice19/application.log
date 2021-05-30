@@ -1,127 +1,31 @@
-1553 [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 8092 (C:\Users\Danila\Google Диск\Institute\4-rd_semestr\JavaTemplates\practice19\target\classes started by Danila in C:\Users\Danila\Google Диск\Institute\4-rd_semestr\JavaTemplates\practice19)
-1556 [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
-1624 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-1624 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2525 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2601 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
-3302 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8080 (http)
-3311 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8080"]
-3311 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
-3312 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
-3423 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
-3424 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1798 ms
-3617 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
-3676 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
-3824 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-3940 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
-4185 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
-4210 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-5162 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-5170 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
-5202 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
-5532 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-5642 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
-5723 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
-5877 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8080"]
-5902 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8080 (http) with context path ''
-5915 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 5.022 seconds (JVM running for 7.004)
-16530 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring DispatcherServlet 'dispatcherServlet'
-16531 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Initializing Servlet 'dispatcherServlet'
-16532 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Completed initialization in 1 ms
-16978 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound –No mapping for GET /favicon.ico
-959  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 9976 (C:\Users\Danila\Google Диск\Institute\4-rd_semestr\JavaTemplates\practice19\target\classes started by Danila in C:\Users\Danila\Google Диск\Institute\4-rd_semestr\JavaTemplates\practice19)
-962  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
-1020 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-1020 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-1634 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-1694 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
-2230 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8080 (http)
-2238 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8080"]
-2238 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
-2238 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
-2315 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
-2316 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1295 ms
-2497 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
-2553 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
-2684 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2789 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
-3040 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
-3067 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-3928 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-3936 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
-3967 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
-4236 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-4319 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
-4399 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
-4526 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8080"]
-4547 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8080 (http) with context path ''
-4556 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 4.062 seconds (JVM running for 5.272)
-1132 [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 26272 (C:\Users\Danila\Google Диск\Institute\4-rd_semestr\JavaTemplates\practice19\target\classes started by Danila in C:\Users\Danila\Google Диск\Institute\4-rd_semestr\JavaTemplates\practice19)
-1136 [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
-1205 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-1206 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-1918 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-1978 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
-2532 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8080 (http)
-2540 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8080"]
-2541 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
-2541 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
-2624 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
-2624 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 1417 ms
-2802 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
-2838 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
-2917 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2994 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
-3225 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
-3262 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-3902 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-3910 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
-3937 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
-4284 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-4380 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
-4435 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
-4559 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8080"]
-4578 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8080 (http) with context path ''
-4586 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 4.001 seconds (JVM running for 5.438)
-16076 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring DispatcherServlet 'dispatcherServlet'
-16076 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Initializing Servlet 'dispatcherServlet'
-16077 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –Completed initialization in 1 ms
-1339 [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.2 on LAPTOP-6V93DAJC with PID 5256 (C:\Users\Danila\Google Диск\Institute\4-rd_semestr\JavaTemplates\practice19\target\classes started by Danila in C:\Users\Danila\Google Диск\Institute\4-rd_semestr\JavaTemplates\practice19)
-1344 [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
-1419 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-1420 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2457 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2548 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 79 ms. Found 2 JPA repository interfaces.
-3330 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8080 (http)
-3340 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8080"]
-3341 [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
-3341 [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
-3436 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
-3436 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 2015 ms
-3639 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
-3698 [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
-3839 [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-3945 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
-4233 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
-4259 [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-5305 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-5317 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
-5370 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
-5776 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-5903 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
-5996 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
-6171 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8080"]
-6208 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8080 (http) with context path ''
-6221 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 5.455 seconds (JVM running for 7.699)
-14859 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring DispatcherServlet 'dispatcherServlet'
-14859 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet –Initializing Servlet 'dispatcherServlet'
-14861 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet –Completed initialization in 2 ms
-15213 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound –No mapping for GET /favicon.ico
-64708 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver –Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.sql.Date` from String "2020-04-0": not a valid representation (error: Failed to parse Date value '2020-04-0': Cannot parse date "2020-04-0": while it seems to fit format 'yyyy-MM-dd', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.sql.Date` from String "2020-04-0": not a valid representation (error: Failed to parse Date value '2020-04-0': Cannot parse date "2020-04-0": while it seems to fit format 'yyyy-MM-dd', parsing fails (leniency? null))
- at [Source: (PushbackInputStream); line: 1, column: 34] (through reference chain: com.practice19.models.dto.filterItemsDTO["creation_date"])]
-68180 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver –Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.sql.Date` from String "2020-04-0": not a valid representation (error: Failed to parse Date value '2020-04-0': Cannot parse date "2020-04-0": while it seems to fit format 'yyyy-MM-dd', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.sql.Date` from String "2020-04-0": not a valid representation (error: Failed to parse Date value '2020-04-0': Cannot parse date "2020-04-0": while it seems to fit format 'yyyy-MM-dd', parsing fails (leniency? null))
- at [Source: (PushbackInputStream); line: 1, column: 34] (through reference chain: com.practice19.models.dto.filterItemsDTO["creation_date"])]
-68366 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver –Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.sql.Date` from String "2020-04-0": not a valid representation (error: Failed to parse Date value '2020-04-0': Cannot parse date "2020-04-0": while it seems to fit format 'yyyy-MM-dd', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.sql.Date` from String "2020-04-0": not a valid representation (error: Failed to parse Date value '2020-04-0': Cannot parse date "2020-04-0": while it seems to fit format 'yyyy-MM-dd', parsing fails (leniency? null))
- at [Source: (PushbackInputStream); line: 1, column: 34] (through reference chain: com.practice19.models.dto.filterItemsDTO["creation_date"])]
-68527 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver –Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.sql.Date` from String "2020-04-0": not a valid representation (error: Failed to parse Date value '2020-04-0': Cannot parse date "2020-04-0": while it seems to fit format 'yyyy-MM-dd', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.sql.Date` from String "2020-04-0": not a valid representation (error: Failed to parse Date value '2020-04-0': Cannot parse date "2020-04-0": while it seems to fit format 'yyyy-MM-dd', parsing fails (leniency? null))
- at [Source: (PushbackInputStream); line: 1, column: 34] (through reference chain: com.practice19.models.dto.filterItemsDTO["creation_date"])]
+232  [restartedMain] INFO  c.practice19.Practice15Application –Starting Practice15Application using Java 15.0.3 on MacBook-Air-Danila.local with PID 7427 (/Users/danila/GoogleDrive/Institute/4-rd_semestr/JavaTemplates/practice19/target/classes started by danila in /Users/danila/GoogleDrive/Institute/4-rd_semestr/JavaTemplates/practice19)
+235  [restartedMain] INFO  c.practice19.Practice15Application –No active profile set, falling back to default profiles: default
+251  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+251  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor –For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+443  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+466  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+646  [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat initialized with port(s): 8080 (http)
+650  [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Initializing ProtocolHandler ["http-nio-8080"]
+650  [restartedMain] INFO  o.a.catalina.core.StandardService –Starting service [Tomcat]
+650  [restartedMain] INFO  o.a.catalina.core.StandardEngine –Starting Servlet engine: [Apache Tomcat/9.0.44]
+675  [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –Initializing Spring embedded WebApplicationContext
+676  [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –Root WebApplicationContext: initialization completed in 425 ms
+728  [restartedMain] INFO  o.h.jpa.internal.util.LogHelper –HHH000204: Processing PersistenceUnitInfo [name: default]
+742  [restartedMain] INFO  org.hibernate.Version –HHH000412: Hibernate ORM core version 5.4.29.Final
+772  [restartedMain] INFO  o.h.annotations.common.Version –HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+795  [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Starting...
+826  [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Start completed.
+833  [restartedMain] INFO  org.hibernate.dialect.Dialect –HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1087 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1090 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Initialized JPA EntityManagerFactory for persistence unit 'default'
+1103 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer –LiveReload server is running on port 35729
+1205 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+1240 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor –Initializing ExecutorService 'applicationTaskExecutor'
+1262 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping –Adding welcome page template: index
+1318 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol –Starting ProtocolHandler ["http-nio-8080"]
+1323 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer –Tomcat started on port(s): 8080 (http) with context path ''
+1330 [restartedMain] INFO  c.practice19.Practice15Application –Started Practice15Application in 1.199 seconds (JVM running for 2.87)
+52901 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor –Shutting down ExecutorService 'applicationTaskExecutor'
+52901 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –Closing JPA EntityManagerFactory for persistence unit 'default'
+52903 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Shutdown initiated...
+52905 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –HikariPool-1 - Shutdown completed.

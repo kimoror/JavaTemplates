@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e36af7b3-3cc8-4f5f-97da-dbf43b18a549" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/JavaTemplates.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice14/src/main/java/com/practice14/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice14/src/main/java/com/practice14/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice14/src/main/java/com/practice14/controllers/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice14/src/main/java/com/practice14/controllers/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice14/src/main/java/com/practice14/controllers/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice14/src/main/java/com/practice14/controllers/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice14/src/main/java/com/practice14/models/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice14/src/main/java/com/practice14/models/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice14/src/main/java/com/practice14/models/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice14/src/main/java/com/practice14/models/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice14/src/main/java/com/practice14/repo/ItemRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice14/src/main/java/com/practice14/repo/ItemRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice14/src/main/java/com/practice14/repo/OrderRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice14/src/main/java/com/practice14/repo/OrderRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice14/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice14/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mirea/danila/pracitce2/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/mirea/danila/pracitce2/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mirea/danila/pracitce2/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/mirea/danila/pracitce2/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mirea/danila/pracitce2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/mirea/danila/pracitce2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice3/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice3/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice3/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice3/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice3/Practice3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice3/Practice3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice3/src/mirea/danila/pracitce3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice3/src/mirea/danila/pracitce3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice3/src/mirea/danila/pracitce3/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice3/src/mirea/danila/pracitce3/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice3/src/mirea/danila/pracitce3/MySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice3/src/mirea/danila/pracitce3/MySet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice4/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice4/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice4/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice4/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice4/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice4/Practice4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice4/Practice4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice4/src/mirea/danila/practice4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice4/src/mirea/danila/practice4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/controllers/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/controllers/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/controllers/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/controllers/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/models/entities/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/models/entities/Items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/models/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/models/entities/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/models/repositories/ItemsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/models/repositories/ItemsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/models/repositories/OrdersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/models/repositories/OrdersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/models/services/ItemsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/models/services/ItemsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/models/services/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce15/src/main/java/com/practice15/models/services/OrdersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce15/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce15/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce16/src/main/java/com/practice16/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce16/src/main/java/com/practice16/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce16/src/main/resources/static/js/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce16/src/main/resources/static/js/orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce16/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce16/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce16/src/main/resources/templates/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce16/src/main/resources/templates/items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce17,18/src/main/java/com/practice17/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce17,18/src/main/java/com/practice17/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce17,18/src/main/java/com/practice17/models/dto/filterItemsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce17,18/src/main/java/com/practice17/models/dto/filterItemsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce17,18/src/main/java/com/practice17/models/repositories/ItemFilterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce17,18/src/main/java/com/practice17/models/repositories/ItemFilterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce17,18/src/main/java/com/practice17/models/services/ItemFilterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce17,18/src/main/java/com/practice17/models/services/ItemFilterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce17,18/src/main/resources/static/js/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce17,18/src/main/resources/static/js/orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce17,18/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce17,18/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pracitce17,18/src/main/resources/templates/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../pracitce17,18/src/main/resources/templates/items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice1/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice1/PracticeWork1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice1/PracticeWork1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice1/src/mirea/Danila/Practice1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice1/src/mirea/Danila/Practice1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice1/src/mirea/Danila/Practice1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice1/src/mirea/Danila/Practice1/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice10/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice10/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice10/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice10/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice10/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice10/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice10/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice10/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice10/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice10/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice10/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice10/practice10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice10/practice10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice10/src/main/java/practice10/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice10/src/main/java/practice10/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice10/src/main/java/practice10/Biden.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice10/src/main/java/practice10/Biden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice10/src/main/java/practice10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice10/src/main/java/practice10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice10/src/main/java/practice10/Merkel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice10/src/main/java/practice10/Merkel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice10/src/main/java/practice10/Politician.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice10/src/main/java/practice10/Politician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice10/src/main/java/practice10/Trump.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice10/src/main/java/practice10/Trump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice12/src/main/java/com/example/practice12/MyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice12/src/main/java/com/example/practice12/MyFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice12/src/main/java/com/example/practice12/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice12/src/main/java/com/example/practice12/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice13/src/main/java/com/example/practice13/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice13/src/main/java/com/example/practice13/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice13/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice13/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice13/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice13/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice19/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice19/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice19/src/main/java/com/practice19/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice19/src/main/java/com/practice19/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice19/src/main/java/com/practice19/diagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice19/src/main/java/com/practice19/diagram.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice19/src/main/java/com/practice19/models/dto/filterItemsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice19/src/main/java/com/practice19/models/dto/filterItemsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice19/src/main/java/com/practice19/models/repositories/ItemFilterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice19/src/main/java/com/practice19/models/repositories/ItemFilterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice19/src/main/java/com/practice19/models/services/ItemFilterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice19/src/main/java/com/practice19/models/services/ItemFilterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice19/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice19/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice19/src/main/resources/static/js/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice19/src/main/resources/static/js/orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice19/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice19/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice19/src/main/resources/templates/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice19/src/main/resources/templates/items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice20/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice20/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice20/src/main/java/com/practice19/aspect/Loggable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice20/src/main/java/com/practice19/aspect/Loggable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice20/src/main/java/com/practice19/aspect/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice20/src/main/java/com/practice19/aspect/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice20/src/main/java/com/practice19/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice20/src/main/java/com/practice19/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice20/src/main/java/com/practice19/models/dto/filterItemsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice20/src/main/java/com/practice19/models/dto/filterItemsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice20/src/main/java/com/practice19/models/repositories/ItemFilterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice20/src/main/java/com/practice19/models/repositories/ItemFilterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice20/src/main/java/com/practice19/models/services/ItemFilterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice20/src/main/java/com/practice19/models/services/ItemFilterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice20/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice20/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice20/src/main/resources/static/js/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice20/src/main/resources/static/js/orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice20/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice20/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice20/src/main/resources/templates/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice20/src/main/resources/templates/items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice21/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice21/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice21/src/main/java/com/practice19/aspect/Loggable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice21/src/main/java/com/practice19/aspect/Loggable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice21/src/main/java/com/practice19/aspect/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice21/src/main/java/com/practice19/aspect/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice21/src/main/java/com/practice19/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice21/src/main/java/com/practice19/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice21/src/main/java/com/practice19/controllers/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice21/src/main/java/com/practice19/controllers/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice21/src/main/java/com/practice19/models/dto/filterItemsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice21/src/main/java/com/practice19/models/dto/filterItemsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice21/src/main/java/com/practice19/models/repositories/ItemFilterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice21/src/main/java/com/practice19/models/repositories/ItemFilterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice21/src/main/java/com/practice19/models/services/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice21/src/main/java/com/practice19/models/services/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice21/src/main/java/com/practice19/models/services/ItemFilterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice21/src/main/java/com/practice19/models/services/ItemFilterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice21/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice21/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice21/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice21/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice21/src/main/resources/static/js/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice21/src/main/resources/static/js/orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice21/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice21/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice21/src/main/resources/templates/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice21/src/main/resources/templates/items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice22/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice22/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/aspect/Loggable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/aspect/Loggable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/aspect/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/aspect/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/models/dto/filterItemsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/models/dto/filterItemsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/models/repositories/ItemFilterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/models/repositories/ItemFilterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/models/services/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/models/services/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/models/services/ItemFilterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/models/services/ItemFilterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/models/services/SheduleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice22/src/main/java/com/practice19/models/services/SheduleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice22/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice22/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice22/src/main/resources/static/js/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice22/src/main/resources/static/js/orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice22/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice22/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice22/src/main/resources/templates/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice22/src/main/resources/templates/items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice22/temp_dir/orders.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice22/temp_dir/orders.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice24/application.2021-04-19.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice24/application.2021-05-02.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice24/application.2021-05-04.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice24/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice24/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice24/src/main/java/com/practice19/aspect/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice24/src/main/java/com/practice19/aspect/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice24/src/main/java/com/practice19/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice24/src/main/java/com/practice19/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice24/src/main/java/com/practice19/models/services/SheduleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice24/src/main/java/com/practice19/models/services/SheduleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice24/src/main/resources/static/js/registration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice24/src/main/resources/templates/orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice24/src/main/resources/templates/orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice5/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice5/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice5/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice5/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice5/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice5/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice5/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice5/practice5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice5/practice5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice5/src/mirea/danila/practice5/ENUM.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice5/src/mirea/danila/practice5/ENUM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice5/src/mirea/danila/practice5/Lazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice5/src/mirea/danila/practice5/Lazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice5/src/mirea/danila/practice5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice5/src/mirea/danila/practice5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice5/src/mirea/danila/practice5/ThreadSafetySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice5/src/mirea/danila/practice5/ThreadSafetySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice5/src/mirea/danila/practice5/ThreadSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice5/src/mirea/danila/practice5/ThreadSingle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/pactice6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/pactice6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/AbstractFactory/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/AbstractFactory/AbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/AbstractFactory/AppleAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/AbstractFactory/AppleAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/AbstractFactory/AppleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/AbstractFactory/AppleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/AbstractFactory/PotatoAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/AbstractFactory/PotatoAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/AbstractFactory/PotatoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/AbstractFactory/PotatoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/AbstractFactory/ProductAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/AbstractFactory/ProductAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/builder/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/builder/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/builder/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/builder/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/builder/ConcreteBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/builder/ConcreteBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/builder/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/builder/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/builder/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/builder/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/factory_method/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/factory_method/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/factory_method/AppleTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/factory_method/AppleTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/factory_method/Potato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/factory_method/Potato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/factory_method/PotatoCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/factory_method/PotatoCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/factory_method/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/factory_method/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/prototype/ConcretePrototype1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/prototype/ConcretePrototype1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/prototype/ConcretePrototype2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/prototype/ConcretePrototype2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/prototype/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice6/src/mirea/danila/practice6/prototype/Prototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice7/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice7/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice7/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice7/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice7/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice7/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice7/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice7/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice7/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice7/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice7/pracitce7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice7/pracitce7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice7/src/practice7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice7/src/practice7/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice7/src/practice7/adapter/Adaptee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice7/src/practice7/adapter/Adaptee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice7/src/practice7/adapter/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice7/src/practice7/adapter/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice7/src/practice7/adapter/AdapterClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice7/src/practice7/adapter/AdapterClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice7/src/practice7/adapter/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice7/src/practice7/adapter/Target.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice7/src/practice7/proxy/BruceWillis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice7/src/practice7/proxy/BruceWillis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice7/src/practice7/proxy/IHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice7/src/practice7/proxy/IHuman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice7/src/practice7/proxy/ProxyProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice7/src/practice7/proxy/ProxyProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice7/src/practice7/proxy/Surrogate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice7/src/practice7/proxy/Surrogate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice8" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice9/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice9/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice9/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice9/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice9/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice9/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice9/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice9/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice9/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice9/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice9/.idea/libraries-with-intellij-classes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice9/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice9/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice9/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice9/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice9/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice9/.idea/practice9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice9/.idea/practice9.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice9/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice9/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice9/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice9/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice9/Help.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice9/Help.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice9/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice9/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice9/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice9/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice9/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice9/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice9/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice9/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice9/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice9/src/main/java/main/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1tCvZxnUTOGlSHFvf2AoLMIjmxS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e36af7b3-3cc8-4f5f-97da-dbf43b18a549" name="Default Changelist" comment="" />
+      <created>1622285944568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622285944568</updated>
+      <workItem from="1622285945790" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
